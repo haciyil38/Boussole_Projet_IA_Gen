@@ -1,4 +1,5 @@
-# AISCA — Agent Intelligent Sémantique et Génératif pour la Cartographie des Compétences
+# Boussole — Oriente vers les métiers, simple et parlant sans perdre le nord
+Agent Intelligent Sémantique et Génératif pour la Cartographie des Compétences
 
 **Projet certifiant RNCP40875 — Expert en ingénierie de données · Bloc 2**  
 EFREI Paris · Mastère Data Engineering & IA · 2025-2026
@@ -7,7 +8,7 @@ EFREI Paris · Mastère Data Engineering & IA · 2025-2026
 
 ## 🎯 Description
 
-AISCA est un moteur de recommandation sémantique qui :
+Boussole est un moteur de recommandation sémantique qui :
 1. Collecte les compétences d'un utilisateur via un questionnaire hybride
 2. Les analyse sémantiquement avec **SBERT** (similarité cosinus)
 3. Les compare à un référentiel de 12 blocs de compétences Data/IA
@@ -19,7 +20,7 @@ AISCA est un moteur de recommandation sémantique qui :
 ## 🏗️ Architecture
 
 ```
-AISCA/
+Boussole/
 ├── app.py                  # Interface Streamlit (point d'entrée)
 ├── data/
 │   ├── competences.json    # Référentiel 12 blocs × 8 compétences
@@ -60,8 +61,7 @@ Visualisations (radar + barres + jauges) + tableau de bord
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/votre-repo/AISCA.git
-cd AISCA
+git clone https://github.com/haciyil38/Boussole_Projet_IA_Gen.git/
 
 # 2. Créer un environnement virtuel
 python -m venv venv
