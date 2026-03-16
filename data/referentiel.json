@@ -1,0 +1,1087 @@
+{
+  "domaines": [
+    {
+      "id": "DATA_IA",
+      "nom": "Data & Intelligence Artificielle",
+      "icone": "🤖",
+      "description": "Data Science, Machine Learning, NLP, IA Générative, Data Engineering",
+      "source": "e-CF 3.0 + ROME",
+      "questions_ouvertes": [
+        {
+          "id": "q_prog",
+          "label": "Décrivez votre expérience en **programmation** (Python, SQL, R…). Quels projets avez-vous réalisés ?",
+          "placeholder": "Ex: J'ai développé des scripts Python pour automatiser le nettoyage de données avec Pandas, créé des API REST avec FastAPI et utilisé Git pour versionner mes projets."
+        },
+        {
+          "id": "q_ml",
+          "label": "Parlez de votre expérience en **Machine Learning et/ou Deep Learning**. Quels modèles avez-vous utilisés ?",
+          "placeholder": "Ex: J'ai entraîné des modèles Random Forest et XGBoost pour de la classification binaire, évalué avec F1-score et AUC-ROC."
+        },
+        {
+          "id": "q_nlp",
+          "label": "Avez-vous travaillé avec du **NLP** ou de l'**IA générative** ? Décrivez vos expériences.",
+          "placeholder": "Ex: J'ai utilisé BERT pour de la classification de textes, expérimenté avec l'API ChatGPT pour du prompt engineering."
+        },
+        {
+          "id": "q_data",
+          "label": "Décrivez votre maîtrise de la **gestion des données** (SQL, NoSQL, pipelines ETL, Cloud…).",
+          "placeholder": "Ex: J'ai conçu des pipelines ETL avec Apache Spark, utilisé PostgreSQL et MongoDB, et déployé sur AWS."
+        },
+        {
+          "id": "q_visu",
+          "label": "Comment **communiquez-vous vos résultats** ? Maîtrisez-vous des outils de visualisation ?",
+          "placeholder": "Ex: Je crée des tableaux de bord avec Streamlit et Plotly, j'utilise Power BI pour les rapports métiers."
+        },
+        {
+          "id": "q_projet",
+          "label": "Décrivez votre approche de la **gestion de projet** et du travail en équipe.",
+          "placeholder": "Ex: Je travaille en méthode Agile, j'utilise Jira pour le suivi des tâches, GitHub pour la collaboration."
+        }
+      ],
+      "likert_items": [
+        {
+          "id": "B01",
+          "label": "Python / Programmation"
+        },
+        {
+          "id": "B02",
+          "label": "Mathématiques / Statistiques"
+        },
+        {
+          "id": "B03",
+          "label": "Traitement des données"
+        },
+        {
+          "id": "B04",
+          "label": "Machine Learning"
+        },
+        {
+          "id": "B05",
+          "label": "Deep Learning"
+        },
+        {
+          "id": "B06",
+          "label": "NLP / Traitement texte"
+        },
+        {
+          "id": "B07",
+          "label": "IA Générative / LLM"
+        },
+        {
+          "id": "B08",
+          "label": "Data Engineering"
+        },
+        {
+          "id": "B09",
+          "label": "Visualisation"
+        },
+        {
+          "id": "B10",
+          "label": "Gestion de projet"
+        },
+        {
+          "id": "B11",
+          "label": "Éthique IA / RGPD"
+        },
+        {
+          "id": "B12",
+          "label": "Cloud / DevOps"
+        }
+      ],
+      "qcm_sections": [
+        {
+          "label": "Langages et frameworks :",
+          "choices": [
+            "Python",
+            "R",
+            "SQL",
+            "Scala",
+            "Java",
+            "JavaScript",
+            "FastAPI",
+            "Flask",
+            "Spark",
+            "Hadoop"
+          ]
+        },
+        {
+          "label": "Outils ML/DL :",
+          "choices": [
+            "scikit-learn",
+            "TensorFlow",
+            "PyTorch",
+            "Keras",
+            "XGBoost",
+            "LightGBM",
+            "Hugging Face",
+            "OpenCV",
+            "spaCy"
+          ]
+        },
+        {
+          "label": "LLMs / APIs GenAI :",
+          "choices": [
+            "OpenAI GPT",
+            "Google Gemini",
+            "Anthropic Claude",
+            "Mistral",
+            "LLaMA / Ollama",
+            "LangChain",
+            "LlamaIndex",
+            "SBERT"
+          ]
+        },
+        {
+          "label": "Data Engineering / Cloud :",
+          "choices": [
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Kafka",
+            "Airflow",
+            "dbt",
+            "AWS",
+            "GCP",
+            "Azure",
+            "Docker",
+            "Kubernetes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NUMERIQUE_IT",
+      "nom": "Numérique & Systèmes d'Information",
+      "icone": "💻",
+      "description": "Développement logiciel, architecture SI, cybersécurité, réseaux",
+      "source": "e-CF 3.0 + ROME M",
+      "questions_ouvertes": [
+        {
+          "id": "q_dev",
+          "label": "Décrivez votre expérience en **développement logiciel** (langages, frameworks, architecture).",
+          "placeholder": "Ex: Je développe des applications web avec React et Node.js, je conçois des API REST et GraphQL, j'utilise Git et CI/CD."
+        },
+        {
+          "id": "q_archi",
+          "label": "Avez-vous conçu ou maintenu des **architectures logicielles ou SI** ? Décrivez votre expérience.",
+          "placeholder": "Ex: J'ai conçu des architectures microservices avec Docker et Kubernetes, mis en place des bases de données relationnelles."
+        },
+        {
+          "id": "q_secu",
+          "label": "Quelle est votre expérience en **cybersécurité** et protection des systèmes ?",
+          "placeholder": "Ex: J'ai réalisé des tests de pénétration, configuré des firewalls, et appliqué des bonnes pratiques OWASP."
+        },
+        {
+          "id": "q_reseau",
+          "label": "Maîtrisez-vous l'administration **réseaux et systèmes** (Linux, Windows Server, protocoles) ?",
+          "placeholder": "Ex: Je configure des réseaux IP, j'administre des serveurs Linux, je mets en place des VPN et des load balancers."
+        },
+        {
+          "id": "q_cloud_it",
+          "label": "Décrivez votre expérience **Cloud et DevOps** (CI/CD, conteneurisation, IaC).",
+          "placeholder": "Ex: Je déploie sur AWS avec Terraform, j'utilise GitHub Actions pour le CI/CD et Docker pour la conteneurisation."
+        },
+        {
+          "id": "q_gestion_it",
+          "label": "Comment gérez-vous les **projets IT** et la relation avec les parties prenantes ?",
+          "placeholder": "Ex: Je pilote des projets en SCRUM, je rédige des spécifications fonctionnelles et j'anime des comités de pilotage."
+        }
+      ],
+      "likert_items": [
+        {
+          "id": "B01",
+          "label": "Développement logiciel"
+        },
+        {
+          "id": "B02",
+          "label": "Architecture SI"
+        },
+        {
+          "id": "B03",
+          "label": "Bases de données / SQL"
+        },
+        {
+          "id": "B04",
+          "label": "Cybersécurité"
+        },
+        {
+          "id": "B05",
+          "label": "Réseaux & Systèmes"
+        },
+        {
+          "id": "B06",
+          "label": "Cloud & DevOps"
+        },
+        {
+          "id": "B07",
+          "label": "Gestion de projet IT"
+        },
+        {
+          "id": "B08",
+          "label": "UX / Design"
+        },
+        {
+          "id": "B09",
+          "label": "Qualité & Tests"
+        },
+        {
+          "id": "B10",
+          "label": "Support & Maintenance"
+        }
+      ],
+      "qcm_sections": [
+        {
+          "label": "Langages de programmation :",
+          "choices": [
+            "Python",
+            "JavaScript",
+            "TypeScript",
+            "Java",
+            "C#",
+            "C++",
+            "Go",
+            "Rust",
+            "PHP",
+            "Swift"
+          ]
+        },
+        {
+          "label": "Frameworks web :",
+          "choices": [
+            "React",
+            "Vue.js",
+            "Angular",
+            "Next.js",
+            "Node.js",
+            "Django",
+            "Spring Boot",
+            "Laravel",
+            ".NET"
+          ]
+        },
+        {
+          "label": "Cloud & DevOps :",
+          "choices": [
+            "AWS",
+            "GCP",
+            "Azure",
+            "Docker",
+            "Kubernetes",
+            "Terraform",
+            "Ansible",
+            "Jenkins",
+            "GitHub Actions"
+          ]
+        },
+        {
+          "label": "Cybersécurité & Réseaux :",
+          "choices": [
+            "Penetration Testing",
+            "OWASP",
+            "SIEM",
+            "Firewall",
+            "VPN",
+            "Zero Trust",
+            "PKI",
+            "ISO 27001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "COMMERCE_MARKETING",
+      "nom": "Commerce & Marketing Digital",
+      "icone": "💼",
+      "description": "Vente, marketing digital, e-commerce, CRM, stratégie commerciale",
+      "source": "ROME D + E",
+      "questions_ouvertes": [
+        {
+          "id": "q_comm",
+          "label": "Décrivez votre expérience en **vente et développement commercial** (prospection, négociation, fidélisation).",
+          "placeholder": "Ex: J'ai géré un portefeuille de 50 clients B2B, réalisé des démonstrations produit et négocié des contrats jusqu'à 500k€."
+        },
+        {
+          "id": "q_marketing",
+          "label": "Quelle est votre maîtrise du **marketing digital** (SEO, SEA, réseaux sociaux, emailing) ?",
+          "placeholder": "Ex: Je gère des campagnes Google Ads et Meta Ads, j'optimise le SEO on-page et off-page, j'analyse les KPI avec GA4."
+        },
+        {
+          "id": "q_ecom",
+          "label": "Avez-vous une expérience en **e-commerce** ou gestion de boutique en ligne ?",
+          "placeholder": "Ex: J'ai géré une boutique Shopify, optimisé les tunnels de conversion, mis en place des campagnes de retargeting."
+        },
+        {
+          "id": "q_crm",
+          "label": "Maîtrisez-vous des outils **CRM** et d'analyse de la performance commerciale ?",
+          "placeholder": "Ex: J'utilise Salesforce et HubSpot pour le suivi des opportunités, je crée des dashboards de performance avec Power BI."
+        },
+        {
+          "id": "q_content",
+          "label": "Avez-vous des compétences en **création de contenu** et communication de marque ?",
+          "placeholder": "Ex: Je rédige des articles de blog SEO, je crée des visuels avec Canva et Adobe, je gère des comptes Instagram et LinkedIn."
+        },
+        {
+          "id": "q_strat",
+          "label": "Décrivez votre expérience en **stratégie commerciale** et analyse de marché.",
+          "placeholder": "Ex: J'ai réalisé des études de marché, défini des personas client, et élaboré des plans marketing annuels."
+        }
+      ],
+      "likert_items": [
+        {
+          "id": "B01",
+          "label": "Prospection & Vente"
+        },
+        {
+          "id": "B02",
+          "label": "Marketing Digital (SEO/SEA)"
+        },
+        {
+          "id": "B03",
+          "label": "Réseaux Sociaux"
+        },
+        {
+          "id": "B04",
+          "label": "E-commerce"
+        },
+        {
+          "id": "B05",
+          "label": "CRM & Relation Client"
+        },
+        {
+          "id": "B06",
+          "label": "Création de Contenu"
+        },
+        {
+          "id": "B07",
+          "label": "Analyse des données marketing"
+        },
+        {
+          "id": "B08",
+          "label": "Stratégie & Planification"
+        },
+        {
+          "id": "B09",
+          "label": "Négociation commerciale"
+        },
+        {
+          "id": "B10",
+          "label": "Communication & Présentation"
+        }
+      ],
+      "qcm_sections": [
+        {
+          "label": "Outils marketing :",
+          "choices": [
+            "Google Analytics",
+            "Google Ads",
+            "Meta Ads",
+            "HubSpot",
+            "Mailchimp",
+            "SEMrush",
+            "Ahrefs",
+            "Hotjar"
+          ]
+        },
+        {
+          "label": "CRM & Sales :",
+          "choices": [
+            "Salesforce",
+            "HubSpot CRM",
+            "Pipedrive",
+            "Zoho CRM",
+            "Microsoft Dynamics",
+            "Monday.com"
+          ]
+        },
+        {
+          "label": "E-commerce & Design :",
+          "choices": [
+            "Shopify",
+            "WooCommerce",
+            "PrestaShop",
+            "Canva",
+            "Adobe Photoshop",
+            "Figma",
+            "WordPress"
+          ]
+        },
+        {
+          "label": "Certifications & Formations :",
+          "choices": [
+            "Google Ads Certified",
+            "Meta Blueprint",
+            "HubSpot Certifié",
+            "Google Analytics",
+            "Certification SEO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FINANCE_BANQUE",
+      "nom": "Finance, Banque & Assurance",
+      "icone": "💰",
+      "description": "Finance d'entreprise, banque, assurance, comptabilité, audit",
+      "source": "ROME C",
+      "questions_ouvertes": [
+        {
+          "id": "q_analyse_fin",
+          "label": "Décrivez votre expérience en **analyse financière** (bilans, comptes de résultats, valorisation).",
+          "placeholder": "Ex: J'analyse des états financiers, calcule des ratios de liquidité et de rentabilité, et réalise des prévisions de trésorerie."
+        },
+        {
+          "id": "q_compta",
+          "label": "Quelle est votre maîtrise de la **comptabilité** (générale, analytique, normes IFRS/PCG) ?",
+          "placeholder": "Ex: Je maîtrise la comptabilité générale et analytique, j'applique les normes IFRS 9 et 16, je prépare les clôtures mensuelles."
+        },
+        {
+          "id": "q_risque",
+          "label": "Avez-vous une expérience en **gestion des risques** et conformité réglementaire ?",
+          "placeholder": "Ex: J'ai conduit des analyses de risque crédit, participé à des missions de conformité Bâle III et DORA."
+        },
+        {
+          "id": "q_invest",
+          "label": "Décrivez votre expérience en **investissement, gestion d'actifs ou marché financier**.",
+          "placeholder": "Ex: J'ai géré des portefeuilles actions/obligations, utilisé Bloomberg pour l'analyse technique et fondamentale."
+        },
+        {
+          "id": "q_audit",
+          "label": "Avez-vous réalisé des missions d'**audit** interne ou externe, ou de conseil financier ?",
+          "placeholder": "Ex: J'ai réalisé des audits de conformité et des due diligences pour des opérations de M&A."
+        },
+        {
+          "id": "q_assurance",
+          "label": "Avez-vous des compétences en **assurance** (produits, actuariat, souscription, sinistres) ?",
+          "placeholder": "Ex: Je maîtrise les produits IARD et vie, j'utilise des modèles actuariels pour la tarification et le provisionnement."
+        }
+      ],
+      "likert_items": [
+        {
+          "id": "B01",
+          "label": "Comptabilité générale"
+        },
+        {
+          "id": "B02",
+          "label": "Analyse financière"
+        },
+        {
+          "id": "B03",
+          "label": "Gestion des risques"
+        },
+        {
+          "id": "B04",
+          "label": "Marchés financiers"
+        },
+        {
+          "id": "B05",
+          "label": "Audit & Contrôle"
+        },
+        {
+          "id": "B06",
+          "label": "Fiscalité & Droit"
+        },
+        {
+          "id": "B07",
+          "label": "Assurance & Actuariat"
+        },
+        {
+          "id": "B08",
+          "label": "Excel & Outils financiers"
+        },
+        {
+          "id": "B09",
+          "label": "Conformité réglementaire"
+        },
+        {
+          "id": "B10",
+          "label": "Communication financière"
+        }
+      ],
+      "qcm_sections": [
+        {
+          "label": "Outils financiers :",
+          "choices": [
+            "Excel (avancé)",
+            "Bloomberg",
+            "Reuters",
+            "SAP Finance",
+            "Oracle Financials",
+            "Power BI",
+            "VBA",
+            "Python (pandas)"
+          ]
+        },
+        {
+          "label": "Normes & Référentiels :",
+          "choices": [
+            "IFRS",
+            "PCG",
+            "Bâle III/IV",
+            "Solvabilité II",
+            "DORA",
+            "RGPD",
+            "SOX",
+            "AMF"
+          ]
+        },
+        {
+          "label": "Domaines d'expertise :",
+          "choices": [
+            "Comptabilité",
+            "Audit",
+            "M&A",
+            "Gestion de portefeuille",
+            "Actuariat",
+            "Crédit",
+            "Trésorerie",
+            "Contrôle de gestion"
+          ]
+        },
+        {
+          "label": "Certifications :",
+          "choices": [
+            "CFA",
+            "ACCA",
+            "Expert-Comptable",
+            "AMF",
+            "CAIA",
+            "FRM",
+            "CPA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "INDUSTRIE",
+      "nom": "Industrie & Ingénierie",
+      "icone": "⚙️",
+      "description": "Génie industriel, production, qualité, maintenance, R&D",
+      "source": "ROME H + I",
+      "questions_ouvertes": [
+        {
+          "id": "q_prod",
+          "label": "Décrivez votre expérience en **production et gestion industrielle** (lean, optimisation, planification).",
+          "placeholder": "Ex: J'ai optimisé des lignes de production avec le lean manufacturing, réduit les rebuts de 20% via des chantiers SMED."
+        },
+        {
+          "id": "q_qualite",
+          "label": "Quelle est votre maîtrise des **systèmes qualité** (ISO, contrôle qualité, amélioration continue) ?",
+          "placeholder": "Ex: Je pilote un SMQ ISO 9001, je réalise des audits internes et j'anime des groupes de résolution de problèmes 8D."
+        },
+        {
+          "id": "q_maintenance",
+          "label": "Avez-vous des compétences en **maintenance industrielle** (préventive, curative, prédictive) ?",
+          "placeholder": "Ex: Je gère des plans de maintenance préventive sur des équipements CNC, j'utilise la GMAO pour le suivi des interventions."
+        },
+        {
+          "id": "q_bureau_etudes",
+          "label": "Maîtrisez-vous des outils de **CAO/DAO** ou de bureau d'études (conception, simulation) ?",
+          "placeholder": "Ex: Je conçois des pièces mécaniques sur SolidWorks et AutoCAD, je réalise des simulations FEA et CFD avec ANSYS."
+        },
+        {
+          "id": "q_hse",
+          "label": "Quelle est votre expérience en **HSE** (Hygiène, Sécurité, Environnement) ?",
+          "placeholder": "Ex: J'ai réalisé des DUER, animé des formations sécurité et mis en place un système de management environnemental ISO 14001."
+        },
+        {
+          "id": "q_rd",
+          "label": "Avez-vous participé à des projets de **R&D ou d'innovation** ? Décrivez votre contribution.",
+          "placeholder": "Ex: J'ai développé un nouveau procédé de traitement de surface réduisant la consommation d'eau de 30%, déposé un brevet."
+        }
+      ],
+      "likert_items": [
+        {
+          "id": "B01",
+          "label": "Gestion de production"
+        },
+        {
+          "id": "B02",
+          "label": "Qualité & Amélioration continue"
+        },
+        {
+          "id": "B03",
+          "label": "Maintenance industrielle"
+        },
+        {
+          "id": "B04",
+          "label": "CAO / Bureau d'études"
+        },
+        {
+          "id": "B05",
+          "label": "HSE"
+        },
+        {
+          "id": "B06",
+          "label": "Supply Chain & Logistique"
+        },
+        {
+          "id": "B07",
+          "label": "Automatisation & Robotique"
+        },
+        {
+          "id": "B08",
+          "label": "Gestion de projet"
+        },
+        {
+          "id": "B09",
+          "label": "R&D & Innovation"
+        },
+        {
+          "id": "B10",
+          "label": "Normes & Réglementation"
+        }
+      ],
+      "qcm_sections": [
+        {
+          "label": "Outils CAO/Simulation :",
+          "choices": [
+            "SolidWorks",
+            "AutoCAD",
+            "CATIA",
+            "ANSYS",
+            "MATLAB",
+            "Siemens NX",
+            "ABAQUS"
+          ]
+        },
+        {
+          "label": "Méthodes & Normes :",
+          "choices": [
+            "Lean Manufacturing",
+            "Six Sigma",
+            "AMDEC",
+            "5S",
+            "Kaizen",
+            "ISO 9001",
+            "ISO 14001",
+            "ISO 45001"
+          ]
+        },
+        {
+          "label": "GMAO & ERP :",
+          "choices": [
+            "SAP",
+            "Oracle",
+            "DIVALTO",
+            "Sage",
+            "MS Dynamics",
+            "MAXIMO",
+            "COSWIN"
+          ]
+        },
+        {
+          "label": "Spécialités :",
+          "choices": [
+            "Mécanique",
+            "Électronique",
+            "Chimie",
+            "Agroalimentaire",
+            "Aéronautique",
+            "Automobile",
+            "Énergie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SANTE",
+      "nom": "Santé & Sciences du Vivant",
+      "icone": "🏥",
+      "description": "Médical, pharmaceutique, biologie, recherche clinique, santé publique",
+      "source": "ROME J",
+      "questions_ouvertes": [
+        {
+          "id": "q_clinique",
+          "label": "Décrivez votre expérience **clinique ou paramédicale** (soins, diagnostic, suivi patient).",
+          "placeholder": "Ex: J'assure des soins infirmiers en service de médecine interne, je réalise des pansements complexes et des prélèvements."
+        },
+        {
+          "id": "q_recherche",
+          "label": "Avez-vous participé à des projets de **recherche clinique ou biomédicale** ?",
+          "placeholder": "Ex: J'ai travaillé comme ARC sur des essais cliniques phase II-III, j'ai rédigé des CRF et assuré la qualité des données."
+        },
+        {
+          "id": "q_pharma",
+          "label": "Quelle est votre expérience dans le domaine **pharmaceutique** (réglementation, production, AQ) ?",
+          "placeholder": "Ex: J'ai travaillé en pharmacovigilance, rédigé des PSURs et participé à des inspections ANSM en conditions GMP."
+        },
+        {
+          "id": "q_sante_pub",
+          "label": "Avez-vous des compétences en **santé publique, épidémiologie** ou gestion des risques sanitaires ?",
+          "placeholder": "Ex: J'ai conduit des études épidémiologiques descriptives, analysé des données de santé avec R et rédigé des rapports pour l'ARS."
+        },
+        {
+          "id": "q_dispo_med",
+          "label": "Avez-vous une expérience avec les **dispositifs médicaux** (développement, régulation, DMR) ?",
+          "placeholder": "Ex: J'ai participé à la rédaction de dossiers techniques CE selon le MDR 2017/745 et conduit des évaluations cliniques."
+        },
+        {
+          "id": "q_bioinfo",
+          "label": "Maîtrisez-vous des outils de **bioinformatique** ou d'analyse de données biologiques ?",
+          "placeholder": "Ex: J'analyse des données NGS avec Python et R, j'utilise des outils comme Galaxy, BLAST et des pipelines bioinformatiques."
+        }
+      ],
+      "likert_items": [
+        {
+          "id": "B01",
+          "label": "Clinique & Soins"
+        },
+        {
+          "id": "B02",
+          "label": "Recherche clinique"
+        },
+        {
+          "id": "B03",
+          "label": "Réglementation & Pharmacovigilance"
+        },
+        {
+          "id": "B04",
+          "label": "Biologie & Laboratoire"
+        },
+        {
+          "id": "B05",
+          "label": "Santé publique & Épidémiologie"
+        },
+        {
+          "id": "B06",
+          "label": "Dispositifs médicaux"
+        },
+        {
+          "id": "B07",
+          "label": "Bioinformatique"
+        },
+        {
+          "id": "B08",
+          "label": "Qualité GxP"
+        },
+        {
+          "id": "B09",
+          "label": "Communication médicale"
+        },
+        {
+          "id": "B10",
+          "label": "Gestion de projet santé"
+        }
+      ],
+      "qcm_sections": [
+        {
+          "label": "Domaines cliniques :",
+          "choices": [
+            "Médecine interne",
+            "Chirurgie",
+            "Urgences",
+            "Oncologie",
+            "Cardiologie",
+            "Neurologie",
+            "Pédiatrie",
+            "Réanimation"
+          ]
+        },
+        {
+          "label": "Réglementation :",
+          "choices": [
+            "GCP",
+            "GMP",
+            "GDP",
+            "ICH",
+            "MDR",
+            "IVDR",
+            "BPF ANSM",
+            "EMA",
+            "FDA"
+          ]
+        },
+        {
+          "label": "Outils & Logiciels :",
+          "choices": [
+            "R",
+            "SPSS",
+            "SAS",
+            "REDCap",
+            "Medidata Rave",
+            "Oracle Clinical",
+            "LIMS",
+            "Veeva",
+            "Python"
+          ]
+        },
+        {
+          "label": "Certifications :",
+          "choices": [
+            "GCLP",
+            "Formation GCP ICH E6",
+            "DU Recherche Clinique",
+            "DU Pharmacovigilance",
+            "Bonne Pratique de Labo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "COMMUNICATION_MEDIAS",
+      "nom": "Communication & Médias",
+      "icone": "📣",
+      "description": "Journalisme, relations publiques, communication corporate, audiovisuel",
+      "source": "ROME E",
+      "questions_ouvertes": [
+        {
+          "id": "q_redaction",
+          "label": "Décrivez votre expérience en **rédaction et production de contenu** (articles, rapports, scripts).",
+          "placeholder": "Ex: J'ai rédigé des articles de presse et des newsletters pour un média en ligne avec 50k lecteurs mensuels."
+        },
+        {
+          "id": "q_rp",
+          "label": "Avez-vous des compétences en **relations presse et relations publiques** ?",
+          "placeholder": "Ex: J'ai géré des communiqués de presse, organisé des conférences de presse et entretenu des relations avec 200 journalistes."
+        },
+        {
+          "id": "q_audiovisuel",
+          "label": "Quelle est votre expérience en **production audiovisuelle** (vidéo, podcast, photo) ?",
+          "placeholder": "Ex: Je réalise et monte des vidéos YouTube avec Premiere Pro, je produis un podcast de 5000 auditeurs/épisode."
+        },
+        {
+          "id": "q_com_corp",
+          "label": "Avez-vous géré des **projets de communication institutionnelle** ou de crise ?",
+          "placeholder": "Ex: J'ai élaboré des plans de communication pour des lancements de produits et géré des situations de communication de crise."
+        },
+        {
+          "id": "q_evenement",
+          "label": "Avez-vous organisé des **événements** professionnels (conférences, salons, séminaires) ?",
+          "placeholder": "Ex: J'ai organisé un forum de 500 participants, géré les prestataires, la logistique et la communication de l'événement."
+        },
+        {
+          "id": "q_digital_com",
+          "label": "Décrivez votre expérience en **communication digitale** et gestion de communautés en ligne.",
+          "placeholder": "Ex: Je gère des communautés LinkedIn et Instagram, je crée des campagnes d'influence et j'analyse les métriques d'engagement."
+        }
+      ],
+      "likert_items": [
+        {
+          "id": "B01",
+          "label": "Rédaction & Éditorial"
+        },
+        {
+          "id": "B02",
+          "label": "Relations Presse / RP"
+        },
+        {
+          "id": "B03",
+          "label": "Audiovisuel & Multimédia"
+        },
+        {
+          "id": "B04",
+          "label": "Communication Digitale"
+        },
+        {
+          "id": "B05",
+          "label": "Événementiel"
+        },
+        {
+          "id": "B06",
+          "label": "Communication Interne"
+        },
+        {
+          "id": "B07",
+          "label": "Identité de marque & Graphisme"
+        },
+        {
+          "id": "B08",
+          "label": "Community Management"
+        },
+        {
+          "id": "B09",
+          "label": "Communication de crise"
+        },
+        {
+          "id": "B10",
+          "label": "Analyse & Reporting"
+        }
+      ],
+      "qcm_sections": [
+        {
+          "label": "Outils créatifs :",
+          "choices": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "InDesign",
+            "Premiere Pro",
+            "After Effects",
+            "Canva",
+            "DaVinci Resolve",
+            "Final Cut Pro"
+          ]
+        },
+        {
+          "label": "Réseaux & Outils digitaux :",
+          "choices": [
+            "LinkedIn",
+            "Instagram",
+            "Twitter/X",
+            "TikTok",
+            "YouTube",
+            "Hootsuite",
+            "Buffer",
+            "Mailchimp",
+            "WordPress"
+          ]
+        },
+        {
+          "label": "Spécialités :",
+          "choices": [
+            "Journalisme",
+            "RP / Relations presse",
+            "Communication corporate",
+            "Marketing de contenu",
+            "Podcast",
+            "Influence",
+            "Événementiel"
+          ]
+        },
+        {
+          "label": "Certifications :",
+          "choices": [
+            "AACC Certified",
+            "Google Analytics",
+            "Meta Blueprint",
+            "HubSpot Content",
+            "Formation RP UJJEF"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MANAGEMENT_RH",
+      "nom": "Management & Ressources Humaines",
+      "icone": "👥",
+      "description": "Management d'équipe, RH, recrutement, formation, gestion des organisations",
+      "source": "ROME M + ROME K",
+      "questions_ouvertes": [
+        {
+          "id": "q_management",
+          "label": "Décrivez votre expérience en **management d'équipe** (taille, contexte, résultats obtenus).",
+          "placeholder": "Ex: Je manage une équipe de 12 personnes en hybride, j'ai mis en place des OKR et amélioré l'engagement de +25%."
+        },
+        {
+          "id": "q_recrutement",
+          "label": "Avez-vous des compétences en **recrutement** (sourcing, entretiens, marque employeur) ?",
+          "placeholder": "Ex: Je pilote le recrutement de profils tech et business, j'utilise LinkedIn Recruiter et j'ai réduit le TTH de 45 à 30 jours."
+        },
+        {
+          "id": "q_formation",
+          "label": "Maîtrisez-vous l'**ingénierie pédagogique** et le développement des compétences ?",
+          "placeholder": "Ex: J'ai conçu et animé des formations managériales, j'ai mis en place un LMS et piloté des plans de développement individuels."
+        },
+        {
+          "id": "q_paie",
+          "label": "Avez-vous des compétences en **paie et administration du personnel** ?",
+          "placeholder": "Ex: Je gère les bulletins de paie de 150 collaborateurs, les déclarations sociales, les contrats et les procédures disciplinaires."
+        },
+        {
+          "id": "q_dialogue_social",
+          "label": "Avez-vous animé le **dialogue social** et les relations avec les instances représentatives ?",
+          "placeholder": "Ex: Je prépare et anime les CSE, je négocie des accords collectifs (NAO, qualité de vie au travail) et gère les contentieux."
+        },
+        {
+          "id": "q_transfo",
+          "label": "Avez-vous piloté des **transformations organisationnelles** (restructuration, change management) ?",
+          "placeholder": "Ex: J'ai accompagné une fusion-acquisition en gérant le plan social et le référentiel de compétences de 800 collaborateurs."
+        }
+      ],
+      "likert_items": [
+        {
+          "id": "B01",
+          "label": "Management d'équipe"
+        },
+        {
+          "id": "B02",
+          "label": "Recrutement & Talent"
+        },
+        {
+          "id": "B03",
+          "label": "Formation & Développement RH"
+        },
+        {
+          "id": "B04",
+          "label": "Administration du personnel"
+        },
+        {
+          "id": "B05",
+          "label": "Droit du travail"
+        },
+        {
+          "id": "B06",
+          "label": "Relations sociales & Dialogue"
+        },
+        {
+          "id": "B07",
+          "label": "Gestion de projet"
+        },
+        {
+          "id": "B08",
+          "label": "SIRH & Outils RH"
+        },
+        {
+          "id": "B09",
+          "label": "Communication & Influence"
+        },
+        {
+          "id": "B10",
+          "label": "Gestion du changement"
+        }
+      ],
+      "qcm_sections": [
+        {
+          "label": "Outils SIRH :",
+          "choices": [
+            "SAP SuccessFactors",
+            "Workday",
+            "Oracle HCM",
+            "Talentsoft",
+            "Silae",
+            "PayFit",
+            "HR Access",
+            "ADP Decidium"
+          ]
+        },
+        {
+          "label": "Méthodes & Référentiels :",
+          "choices": [
+            "GPEC",
+            "OKR",
+            "360°",
+            "Assessment Center",
+            "Design Thinking",
+            "Lean RH",
+            "Agile RH",
+            "MBTI",
+            "DISC"
+          ]
+        },
+        {
+          "label": "Spécialités RH :",
+          "choices": [
+            "Recrutement",
+            "Formation",
+            "Paie",
+            "Relations sociales",
+            "Mobilité internationale",
+            "Égalité & Diversité",
+            "Employer Branding",
+            "HRBP"
+          ]
+        },
+        {
+          "label": "Certifications :",
+          "choices": [
+            "PHR / SPHR",
+            "SHRM",
+            "Coach professionnel (ICF)",
+            "Médiateur certifié",
+            "DRH Senior (IGS)"
+          ]
+        }
+      ]
+    }
+  ]
+}

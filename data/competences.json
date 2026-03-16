@@ -1,0 +1,184 @@
+{
+  "blocs": [
+    {
+      "id": "B01",
+      "nom": "Programmation & Algorithmique",
+      "poids": 1.2,
+      "competences": [
+        "écrire des scripts Python pour automatiser des tâches",
+        "maîtriser les structures de données : listes, dictionnaires, ensembles",
+        "programmer en orienté objet avec des classes et des méthodes",
+        "utiliser des bibliothèques Python comme NumPy, Pandas, Matplotlib",
+        "écrire des fonctions réutilisables et modulaires",
+        "déboguer et tester son code avec des tests unitaires",
+        "utiliser Git pour versionner et collaborer sur du code",
+        "comprendre les algorithmes de tri, de recherche et leur complexité"
+      ]
+    },
+    {
+      "id": "B02",
+      "nom": "Mathématiques & Statistiques",
+      "poids": 1.1,
+      "competences": [
+        "calculer des statistiques descriptives : moyenne, variance, écart-type",
+        "comprendre les distributions de probabilité et les tests statistiques",
+        "appliquer l'algèbre linéaire : vecteurs, matrices, produit scalaire",
+        "utiliser la régression linéaire et logistique pour modéliser",
+        "interpréter des intervalles de confiance et des p-values",
+        "réaliser des analyses de corrélation entre variables",
+        "maîtriser le calcul différentiel pour l'optimisation de modèles",
+        "comprendre la théorie bayésienne et les probabilités conditionnelles"
+      ]
+    },
+    {
+      "id": "B03",
+      "nom": "Traitement & Préparation des Données",
+      "poids": 1.3,
+      "competences": [
+        "nettoyer des données brutes en gérant les valeurs manquantes et les doublons",
+        "transformer et normaliser des données pour les préparer à l'analyse",
+        "réaliser des jointures et agrégations sur des DataFrames Pandas",
+        "encoder des variables catégorielles avec one-hot encoding ou label encoding",
+        "détecter et traiter les outliers dans un jeu de données",
+        "créer des pipelines de prétraitement reproductibles avec sklearn",
+        "travailler avec des données textuelles brutes et les nettoyer",
+        "manipuler des fichiers CSV, JSON, Excel et bases de données SQL"
+      ]
+    },
+    {
+      "id": "B04",
+      "nom": "Machine Learning",
+      "poids": 1.3,
+      "competences": [
+        "entraîner des modèles de classification supervisée comme Random Forest ou SVM",
+        "appliquer des algorithmes de régression pour prédire des valeurs continues",
+        "mettre en œuvre du clustering non supervisé avec K-Means ou DBSCAN",
+        "évaluer un modèle avec des métriques : accuracy, F1-score, AUC-ROC",
+        "réaliser une validation croisée pour éviter le surapprentissage",
+        "optimiser les hyperparamètres avec GridSearch ou RandomSearch",
+        "utiliser scikit-learn pour construire des pipelines ML complets",
+        "interpréter un modèle avec des techniques d'explicabilité comme SHAP"
+      ]
+    },
+    {
+      "id": "B05",
+      "nom": "Deep Learning & Réseaux de Neurones",
+      "poids": 1.1,
+      "competences": [
+        "concevoir et entraîner des réseaux de neurones avec TensorFlow ou PyTorch",
+        "comprendre la rétropropagation et la descente de gradient",
+        "utiliser des réseaux convolutifs CNN pour la classification d'images",
+        "appliquer des réseaux récurrents LSTM pour les séquences temporelles",
+        "utiliser le transfer learning avec des modèles pré-entraînés",
+        "régulariser les réseaux avec dropout et batch normalization",
+        "entraîner des modèles sur GPU et gérer les ressources de calcul",
+        "comprendre l'architecture des transformers et du mécanisme d'attention"
+      ]
+    },
+    {
+      "id": "B06",
+      "nom": "NLP & Traitement du Langage Naturel",
+      "poids": 1.4,
+      "competences": [
+        "réaliser la tokenisation et la lemmatisation de textes",
+        "créer des embeddings de mots avec Word2Vec, GloVe ou fastText",
+        "utiliser des embeddings contextuels BERT ou Sentence-BERT SBERT",
+        "calculer la similarité sémantique entre phrases avec la similarité cosinus",
+        "classer des textes avec des modèles NLP supervisés",
+        "extraire des entités nommées avec des techniques de NER",
+        "résumer automatiquement des textes avec des modèles génératifs",
+        "analyser les sentiments dans des avis ou des commentaires"
+      ]
+    },
+    {
+      "id": "B07",
+      "nom": "IA Générative & LLM",
+      "poids": 1.4,
+      "competences": [
+        "utiliser des API de grands modèles de langage comme GPT ou Gemini",
+        "concevoir des prompts efficaces avec le prompt engineering",
+        "mettre en place un pipeline RAG Retrieval Augmented Generation",
+        "intégrer un système de cache pour limiter les appels API coûteux",
+        "générer du contenu personnalisé à partir d'un contexte enrichi",
+        "évaluer la qualité des sorties génératives avec des métriques adaptées",
+        "utiliser des outils comme LangChain ou LlamaIndex pour l'orchestration",
+        "comprendre les hallucinations et mettre en place des garde-fous"
+      ]
+    },
+    {
+      "id": "B08",
+      "nom": "Data Engineering & Architecture",
+      "poids": 1.1,
+      "competences": [
+        "concevoir des pipelines de données ETL de bout en bout",
+        "utiliser des bases de données relationnelles SQL et NoSQL",
+        "travailler avec des outils Big Data comme Spark ou Kafka",
+        "mettre en place des bases de données vectorielles comme Pinecone ou Chroma",
+        "orchestrer des workflows avec Airflow ou des outils équivalents",
+        "déployer des applications dans des environnements cloud AWS, GCP ou Azure",
+        "concevoir des architectures de données scalables et maintenables",
+        "monitorer des pipelines de données en production"
+      ]
+    },
+    {
+      "id": "B09",
+      "nom": "Visualisation & Communication des Données",
+      "poids": 1.0,
+      "competences": [
+        "créer des graphiques clairs et informatifs avec Matplotlib ou Seaborn",
+        "construire des tableaux de bord interactifs avec Plotly ou Dash",
+        "développer des interfaces utilisateur avec Streamlit",
+        "communiquer des résultats d'analyse à un public non technique",
+        "choisir le bon type de graphique selon les données à représenter",
+        "réaliser des visualisations de réseaux ou de cartographies sémantiques",
+        "documenter et présenter des projets data de manière professionnelle",
+        "utiliser Power BI ou Tableau pour créer des rapports métiers"
+      ]
+    },
+    {
+      "id": "B10",
+      "nom": "Gestion de Projet & Travail en Équipe",
+      "poids": 0.9,
+      "competences": [
+        "planifier un projet avec une méthode Agile ou Kanban",
+        "rédiger des user stories et définir des critères d'acceptance",
+        "collaborer en équipe avec GitHub et des outils de gestion comme Jira ou Trello",
+        "estimer les délais et gérer les risques d'un projet technique",
+        "rédiger une documentation technique claire et structurée",
+        "animer des réunions de suivi et des retrospectives",
+        "présenter oralement un projet technique devant un jury",
+        "respecter des contraintes de délais et de qualité dans un contexte professionnel"
+      ]
+    },
+    {
+      "id": "B11",
+      "nom": "Éthique, RGPD & IA Responsable",
+      "poids": 0.9,
+      "competences": [
+        "identifier les biais potentiels dans les données et les modèles d'IA",
+        "appliquer les principes du RGPD dans le traitement des données personnelles",
+        "évaluer l'impact environnemental des modèles d'IA",
+        "mettre en place des mécanismes de transparence et d'explicabilité",
+        "comprendre les enjeux de la gouvernance des données",
+        "documenter les choix éthiques dans un projet IA",
+        "gérer la confidentialité et la sécurité des données sensibles",
+        "appliquer les bonnes pratiques de sécurisation des API et des flux de données"
+      ]
+    },
+    {
+      "id": "B12",
+      "nom": "Cloud & DevOps",
+      "poids": 0.9,
+      "competences": [
+        "déployer des applications avec Docker et des conteneurs",
+        "utiliser des services cloud pour héberger des modèles de machine learning",
+        "mettre en place une intégration continue et un déploiement continu CI/CD",
+        "gérer des environnements virtuels Python et des dépendances",
+        "utiliser des APIs REST pour exposer des modèles de machine learning",
+        "monitorer les performances d'une application en production",
+        "configurer des variables d'environnement et gérer les secrets",
+        "utiliser Kubernetes pour l'orchestration de conteneurs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2046 @@
+{
+  "DATA_IA": {
+    "metiers": [
+      {
+        "id": "M01",
+        "titre": "Data Scientist",
+        "description": "Analyse des données complexes, construit des modèles prédictifs et génère des insights stratégiques.",
+        "blocs_requis": {
+          "B01": 0.8,
+          "B02": 0.9,
+          "B03": 0.9,
+          "B04": 1.0,
+          "B05": 0.7,
+          "B06": 0.6,
+          "B09": 0.7,
+          "B10": 0.6
+        },
+        "competences_cles": [
+          "Machine Learning",
+          "Statistiques",
+          "Python",
+          "Visualisation"
+        ],
+        "salaire_median": "55 000 – 80 000 €/an",
+        "secteurs": [
+          "Finance",
+          "Santé",
+          "E-commerce",
+          "Conseil"
+        ]
+      },
+      {
+        "id": "M02",
+        "titre": "ML Engineer",
+        "description": "Conçoit, développe et déploie des modèles de machine learning en production dans des systèmes robustes.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B02": 0.8,
+          "B03": 0.9,
+          "B04": 1.0,
+          "B05": 0.8,
+          "B08": 0.8,
+          "B12": 0.9,
+          "B10": 0.6
+        },
+        "competences_cles": [
+          "Python",
+          "MLOps",
+          "Cloud",
+          "Deep Learning"
+        ],
+        "salaire_median": "55 000 – 85 000 €/an",
+        "secteurs": [
+          "Tech",
+          "Startups",
+          "Industrie"
+        ]
+      },
+      {
+        "id": "M03",
+        "titre": "NLP Engineer",
+        "description": "Spécialiste du traitement du langage naturel, développe des systèmes de compréhension et génération de texte.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B02": 0.7,
+          "B03": 0.8,
+          "B04": 0.7,
+          "B05": 0.8,
+          "B06": 1.0,
+          "B07": 0.9,
+          "B10": 0.5
+        },
+        "competences_cles": [
+          "NLP",
+          "BERT",
+          "LLM",
+          "Python"
+        ],
+        "salaire_median": "58 000 – 90 000 €/an",
+        "secteurs": [
+          "IA",
+          "Médias",
+          "Juridique",
+          "RH"
+        ]
+      },
+      {
+        "id": "M04",
+        "titre": "Ingénieur IA Générative",
+        "description": "Développe des applications basées sur des LLM, des pipelines RAG et des agents IA.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B05": 0.7,
+          "B06": 0.9,
+          "B07": 1.0,
+          "B08": 0.7,
+          "B11": 0.8,
+          "B12": 0.7,
+          "B10": 0.6
+        },
+        "competences_cles": [
+          "LLM",
+          "RAG",
+          "Prompt Engineering",
+          "API GenAI"
+        ],
+        "salaire_median": "60 000 – 95 000 €/an",
+        "secteurs": [
+          "IA",
+          "SaaS",
+          "Conseil",
+          "EdTech"
+        ]
+      },
+      {
+        "id": "M05",
+        "titre": "Data Engineer",
+        "description": "Conçoit et maintient des pipelines de données fiables et scalables pour alimenter les équipes analytiques.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B02": 0.5,
+          "B03": 1.0,
+          "B08": 1.0,
+          "B12": 0.9,
+          "B10": 0.6,
+          "B11": 0.5
+        },
+        "competences_cles": [
+          "SQL",
+          "Spark",
+          "Cloud",
+          "ETL"
+        ],
+        "salaire_median": "50 000 – 80 000 €/an",
+        "secteurs": [
+          "Finance",
+          "Retail",
+          "Télécoms"
+        ]
+      },
+      {
+        "id": "M06",
+        "titre": "Data Analyst",
+        "description": "Analyse les données d'entreprise, crée des tableaux de bord et produit des rapports pour orienter la stratégie.",
+        "blocs_requis": {
+          "B01": 0.6,
+          "B02": 0.8,
+          "B03": 0.9,
+          "B04": 0.5,
+          "B09": 1.0,
+          "B10": 0.7,
+          "B11": 0.5
+        },
+        "competences_cles": [
+          "SQL",
+          "Excel",
+          "Power BI",
+          "Statistiques"
+        ],
+        "salaire_median": "38 000 – 58 000 €/an",
+        "secteurs": [
+          "Marketing",
+          "Finance",
+          "RH"
+        ]
+      },
+      {
+        "id": "M07",
+        "titre": "Research Scientist IA",
+        "description": "Mène des travaux de recherche pour développer de nouveaux algorithmes et avancer l'état de l'art en IA.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B02": 1.0,
+          "B04": 0.9,
+          "B05": 1.0,
+          "B06": 0.8,
+          "B07": 0.8,
+          "B10": 0.7,
+          "B11": 0.7
+        },
+        "competences_cles": [
+          "Deep Learning",
+          "Mathématiques",
+          "Recherche",
+          "Publications"
+        ],
+        "salaire_median": "65 000 – 110 000 €/an",
+        "secteurs": [
+          "Recherche",
+          "GAFAM",
+          "Laboratoires"
+        ]
+      },
+      {
+        "id": "M08",
+        "titre": "MLOps / DevOps IA",
+        "description": "Met en place les infrastructures et pipelines CI/CD pour le déploiement et le monitoring de modèles ML.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B03": 0.7,
+          "B04": 0.5,
+          "B08": 0.9,
+          "B12": 1.0,
+          "B10": 0.6,
+          "B11": 0.5
+        },
+        "competences_cles": [
+          "Docker",
+          "Kubernetes",
+          "Cloud",
+          "CI/CD"
+        ],
+        "salaire_median": "50 000 – 85 000 €/an",
+        "secteurs": [
+          "Tech",
+          "Finance",
+          "Industrie"
+        ]
+      },
+      {
+        "id": "M09",
+        "titre": "BI Developer",
+        "description": "Développe des solutions de Business Intelligence pour transformer les données brutes en tableaux de bord décisionnels.",
+        "blocs_requis": {
+          "B01": 0.5,
+          "B02": 0.6,
+          "B03": 0.9,
+          "B08": 0.8,
+          "B09": 1.0,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "SQL",
+          "Power BI",
+          "ETL",
+          "Modélisation"
+        ],
+        "salaire_median": "40 000 – 62 000 €/an",
+        "secteurs": [
+          "Finance",
+          "Retail",
+          "Industrie"
+        ]
+      },
+      {
+        "id": "M10",
+        "titre": "AI Product Manager",
+        "description": "Pilote le développement de produits IA en faisant le lien entre les équipes techniques et les besoins métiers.",
+        "blocs_requis": {
+          "B01": 0.4,
+          "B04": 0.5,
+          "B07": 0.6,
+          "B09": 0.7,
+          "B10": 1.0,
+          "B11": 0.8
+        },
+        "competences_cles": [
+          "Gestion de projet",
+          "Product Management",
+          "IA",
+          "Communication"
+        ],
+        "salaire_median": "55 000 – 90 000 €/an",
+        "secteurs": [
+          "SaaS",
+          "FinTech",
+          "HealthTech"
+        ]
+      }
+    ]
+  },
+  "NUMERIQUE_IT": {
+    "metiers": [
+      {
+        "id": "M01",
+        "titre": "Développeur Full Stack",
+        "description": "Développe des applications web de bout en bout, côté front-end et back-end.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B02": 0.8,
+          "B03": 0.8,
+          "B06": 0.6,
+          "B09": 0.7,
+          "B10": 0.6
+        },
+        "competences_cles": [
+          "JavaScript",
+          "React",
+          "Node.js",
+          "SQL"
+        ],
+        "salaire_median": "42 000 – 68 000 €/an",
+        "secteurs": [
+          "Tech",
+          "Startups",
+          "E-commerce",
+          "ESN"
+        ]
+      },
+      {
+        "id": "M02",
+        "titre": "Architecte Logiciel / SI",
+        "description": "Conçoit les architectures techniques des systèmes d'information et guide les équipes de développement.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B02": 1.0,
+          "B03": 0.8,
+          "B04": 0.7,
+          "B06": 0.7,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Architecture",
+          "Cloud",
+          "Microservices",
+          "DDD"
+        ],
+        "salaire_median": "65 000 – 100 000 €/an",
+        "secteurs": [
+          "Finance",
+          "Industrie",
+          "Consulting"
+        ]
+      },
+      {
+        "id": "M03",
+        "titre": "Expert Cybersécurité",
+        "description": "Identifie les vulnérabilités, protège les systèmes et répond aux incidents de sécurité.",
+        "blocs_requis": {
+          "B01": 0.8,
+          "B04": 1.0,
+          "B05": 0.9,
+          "B06": 0.8,
+          "B09": 0.6,
+          "B10": 0.6
+        },
+        "competences_cles": [
+          "Pentest",
+          "OWASP",
+          "SIEM",
+          "ISO 27001"
+        ],
+        "salaire_median": "55 000 – 90 000 €/an",
+        "secteurs": [
+          "Finance",
+          "Défense",
+          "Télécoms",
+          "Consulting"
+        ]
+      },
+      {
+        "id": "M04",
+        "titre": "Cloud Architect / DevOps",
+        "description": "Conçoit et opère des infrastructures cloud scalables et automatise les pipelines de déploiement.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B02": 0.8,
+          "B03": 0.7,
+          "B06": 1.0,
+          "B09": 0.7,
+          "B10": 0.6
+        },
+        "competences_cles": [
+          "AWS/GCP/Azure",
+          "Kubernetes",
+          "Terraform",
+          "CI/CD"
+        ],
+        "salaire_median": "58 000 – 95 000 €/an",
+        "secteurs": [
+          "Tech",
+          "ESN",
+          "Finance",
+          "Industrie"
+        ]
+      },
+      {
+        "id": "M05",
+        "titre": "Chef de Projet IT",
+        "description": "Pilote des projets informatiques de la conception à la livraison en garantissant délais, budget et qualité.",
+        "blocs_requis": {
+          "B01": 0.5,
+          "B02": 0.7,
+          "B07": 1.0,
+          "B08": 0.7,
+          "B09": 0.7,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "SCRUM",
+          "Gestion de projet",
+          "Communication",
+          "Risques"
+        ],
+        "salaire_median": "45 000 – 75 000 €/an",
+        "secteurs": [
+          "ESN",
+          "Finance",
+          "Industrie",
+          "Public"
+        ]
+      },
+      {
+        "id": "M06",
+        "titre": "Administrateur Systèmes & Réseaux",
+        "description": "Maintient et sécurise les infrastructures réseaux et les serveurs de l'entreprise.",
+        "blocs_requis": {
+          "B01": 0.7,
+          "B04": 0.8,
+          "B05": 1.0,
+          "B06": 0.7,
+          "B09": 0.6,
+          "B10": 0.5
+        },
+        "competences_cles": [
+          "Linux",
+          "Windows Server",
+          "Réseaux",
+          "Sécurité"
+        ],
+        "salaire_median": "35 000 – 55 000 €/an",
+        "secteurs": [
+          "Tous secteurs",
+          "Public",
+          "PME"
+        ]
+      },
+      {
+        "id": "M07",
+        "titre": "UX Designer",
+        "description": "Conçoit des interfaces utilisateur centrées sur l'expérience et les besoins des utilisateurs.",
+        "blocs_requis": {
+          "B01": 0.4,
+          "B07": 0.6,
+          "B08": 1.0,
+          "B09": 0.8,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Figma",
+          "Recherche utilisateur",
+          "Design System",
+          "Prototypage"
+        ],
+        "salaire_median": "38 000 – 62 000 €/an",
+        "secteurs": [
+          "Tech",
+          "E-commerce",
+          "Startups",
+          "Agences"
+        ]
+      },
+      {
+        "id": "M08",
+        "titre": "Ingénieur QA / Testeur",
+        "description": "Garantit la qualité des logiciels par des tests rigoureux manuels et automatisés.",
+        "blocs_requis": {
+          "B01": 0.7,
+          "B02": 0.6,
+          "B07": 0.7,
+          "B09": 1.0,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Selenium",
+          "Cypress",
+          "TDD",
+          "BDD"
+        ],
+        "salaire_median": "36 000 – 58 000 €/an",
+        "secteurs": [
+          "Tech",
+          "Finance",
+          "ESN"
+        ]
+      },
+      {
+        "id": "M09",
+        "titre": "Data Architect",
+        "description": "Conçoit les modèles de données et les architectures de stockage et de traitement de données.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B02": 1.0,
+          "B03": 0.9,
+          "B06": 0.8,
+          "B07": 0.6,
+          "B10": 0.6
+        },
+        "competences_cles": [
+          "Modélisation",
+          "SQL",
+          "Big Data",
+          "Cloud"
+        ],
+        "salaire_median": "60 000 – 95 000 €/an",
+        "secteurs": [
+          "Finance",
+          "Retail",
+          "Télécoms"
+        ]
+      },
+      {
+        "id": "M10",
+        "titre": "RSSI / Responsable Sécurité",
+        "description": "Définit et pilote la politique de sécurité des systèmes d'information de l'organisation.",
+        "blocs_requis": {
+          "B02": 0.8,
+          "B04": 1.0,
+          "B05": 0.8,
+          "B06": 0.8,
+          "B07": 0.9,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "ISO 27001",
+          "RGPD",
+          "Gouvernance",
+          "Risk Management"
+        ],
+        "salaire_median": "65 000 – 110 000 €/an",
+        "secteurs": [
+          "Finance",
+          "Industrie",
+          "Public",
+          "Santé"
+        ]
+      }
+    ]
+  },
+  "COMMERCE_MARKETING": {
+    "metiers": [
+      {
+        "id": "M01",
+        "titre": "Responsable Marketing Digital",
+        "description": "Pilote la stratégie digitale de l'entreprise pour acquérir et fidéliser les clients en ligne.",
+        "blocs_requis": {
+          "B02": 1.0,
+          "B03": 0.9,
+          "B04": 0.7,
+          "B05": 0.8,
+          "B07": 0.9,
+          "B08": 0.8,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "SEO/SEA",
+          "Analytics",
+          "Social Media",
+          "Stratégie"
+        ],
+        "salaire_median": "42 000 – 70 000 €/an",
+        "secteurs": [
+          "E-commerce",
+          "Startups",
+          "Retail",
+          "Médias"
+        ]
+      },
+      {
+        "id": "M02",
+        "titre": "Commercial B2B / Account Manager",
+        "description": "Développe et gère un portefeuille de clients professionnels en vendant des solutions complexes.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B05": 0.8,
+          "B09": 1.0,
+          "B10": 0.9,
+          "B08": 0.7
+        },
+        "competences_cles": [
+          "Négociation",
+          "CRM",
+          "Prospection",
+          "Grands comptes"
+        ],
+        "salaire_median": "38 000 – 75 000 €/an",
+        "secteurs": [
+          "B2B",
+          "Tech",
+          "Industrie",
+          "Finance"
+        ]
+      },
+      {
+        "id": "M03",
+        "titre": "Traffic Manager / SEA Manager",
+        "description": "Gère et optimise les campagnes publicitaires payantes pour maximiser le ROI.",
+        "blocs_requis": {
+          "B02": 1.0,
+          "B03": 0.8,
+          "B04": 0.6,
+          "B07": 0.9,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Google Ads",
+          "Meta Ads",
+          "Programmatique",
+          "Analytics"
+        ],
+        "salaire_median": "35 000 – 58 000 €/an",
+        "secteurs": [
+          "Agences",
+          "E-commerce",
+          "Médias"
+        ]
+      },
+      {
+        "id": "M04",
+        "titre": "Chef de Produit / Product Manager",
+        "description": "Définit la vision produit, priorise le backlog et pilote le cycle de vie du produit.",
+        "blocs_requis": {
+          "B01": 0.7,
+          "B05": 0.6,
+          "B07": 0.8,
+          "B08": 1.0,
+          "B09": 0.7,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Product Management",
+          "UX",
+          "Data",
+          "Agile"
+        ],
+        "salaire_median": "48 000 – 80 000 €/an",
+        "secteurs": [
+          "Tech",
+          "SaaS",
+          "E-commerce"
+        ]
+      },
+      {
+        "id": "M05",
+        "titre": "Responsable E-commerce",
+        "description": "Pilote la performance d'une boutique en ligne, de l'expérience client à la logistique.",
+        "blocs_requis": {
+          "B02": 0.8,
+          "B04": 1.0,
+          "B05": 0.7,
+          "B07": 0.8,
+          "B08": 0.7,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Shopify",
+          "CRO",
+          "Logistique",
+          "Campagnes"
+        ],
+        "salaire_median": "40 000 – 65 000 €/an",
+        "secteurs": [
+          "Retail",
+          "Mode",
+          "Luxe",
+          "FMCG"
+        ]
+      },
+      {
+        "id": "M06",
+        "titre": "Content Manager / Rédacteur Web",
+        "description": "Crée et gère des contenus engageants pour attirer et convertir les audiences.",
+        "blocs_requis": {
+          "B02": 0.7,
+          "B03": 0.7,
+          "B06": 1.0,
+          "B07": 0.8,
+          "B08": 0.6
+        },
+        "competences_cles": [
+          "SEO",
+          "Rédaction",
+          "WordPress",
+          "Inbound"
+        ],
+        "salaire_median": "30 000 – 48 000 €/an",
+        "secteurs": [
+          "Médias",
+          "Agences",
+          "E-commerce",
+          "B2B"
+        ]
+      },
+      {
+        "id": "M07",
+        "titre": "Consultant CRM & Marketing Automation",
+        "description": "Déploie et optimise les outils CRM et les dispositifs d'automatisation marketing.",
+        "blocs_requis": {
+          "B02": 0.8,
+          "B05": 1.0,
+          "B07": 0.9,
+          "B08": 0.7,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Salesforce",
+          "HubSpot",
+          "Automatisation",
+          "CRM"
+        ],
+        "salaire_median": "42 000 – 70 000 €/an",
+        "secteurs": [
+          "Conseil",
+          "B2B",
+          "Banque",
+          "Assurance"
+        ]
+      },
+      {
+        "id": "M08",
+        "titre": "Directeur Commercial",
+        "description": "Définit et pilote la stratégie commerciale, manage les équipes de vente et atteint les objectifs de CA.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B08": 0.9,
+          "B09": 1.0,
+          "B10": 0.9,
+          "B07": 0.7
+        },
+        "competences_cles": [
+          "Leadership",
+          "Stratégie",
+          "Grands comptes",
+          "Management"
+        ],
+        "salaire_median": "65 000 – 120 000 €/an",
+        "secteurs": [
+          "B2B",
+          "Industrie",
+          "Tech",
+          "Services"
+        ]
+      },
+      {
+        "id": "M09",
+        "titre": "Community Manager",
+        "description": "Anime et développe les communautés de marque sur les réseaux sociaux et les plateformes en ligne.",
+        "blocs_requis": {
+          "B03": 1.0,
+          "B06": 0.9,
+          "B07": 0.7,
+          "B08": 0.6,
+          "B10": 0.6
+        },
+        "competences_cles": [
+          "Réseaux sociaux",
+          "Contenu",
+          "Modération",
+          "Analytics"
+        ],
+        "salaire_median": "28 000 – 42 000 €/an",
+        "secteurs": [
+          "Agences",
+          "Startups",
+          "Médias",
+          "Retail"
+        ]
+      },
+      {
+        "id": "M10",
+        "titre": "Analyste Marketing / Data Analyst Marketing",
+        "description": "Analyse les données marketing pour mesurer la performance et guider les décisions stratégiques.",
+        "blocs_requis": {
+          "B02": 0.8,
+          "B05": 0.7,
+          "B07": 1.0,
+          "B08": 0.8,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Analytics",
+          "SQL",
+          "Power BI",
+          "Statistiques"
+        ],
+        "salaire_median": "35 000 – 58 000 €/an",
+        "secteurs": [
+          "E-commerce",
+          "Finance",
+          "Retail",
+          "Agences"
+        ]
+      }
+    ]
+  },
+  "FINANCE_BANQUE": {
+    "metiers": [
+      {
+        "id": "M01",
+        "titre": "Analyste Financier",
+        "description": "Analyse la performance financière des entreprises et produit des recommandations d'investissement.",
+        "blocs_requis": {
+          "B01": 0.8,
+          "B02": 1.0,
+          "B04": 0.8,
+          "B08": 0.7,
+          "B09": 0.6,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Analyse financière",
+          "Excel",
+          "Valorisation",
+          "Reporting"
+        ],
+        "salaire_median": "40 000 – 70 000 €/an",
+        "secteurs": [
+          "Banque",
+          "Finance",
+          "Conseil",
+          "M&A"
+        ]
+      },
+      {
+        "id": "M02",
+        "titre": "Contrôleur de Gestion",
+        "description": "Pilote la performance financière de l'entreprise via le suivi budgétaire et les tableaux de bord.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B02": 0.9,
+          "B05": 0.6,
+          "B08": 1.0,
+          "B09": 0.8,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Budget",
+          "Reporting",
+          "Excel",
+          "Power BI"
+        ],
+        "salaire_median": "42 000 – 68 000 €/an",
+        "secteurs": [
+          "Industrie",
+          "Services",
+          "Finance",
+          "Retail"
+        ]
+      },
+      {
+        "id": "M03",
+        "titre": "Auditeur Financier",
+        "description": "Certifie les comptes et évalue le dispositif de contrôle interne des organisations.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B02": 0.8,
+          "B03": 0.8,
+          "B05": 1.0,
+          "B09": 0.7,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Audit",
+          "IFRS",
+          "Contrôle interne",
+          "Rigueur"
+        ],
+        "salaire_median": "38 000 – 65 000 €/an",
+        "secteurs": [
+          "Big 4",
+          "Banque",
+          "Assurance"
+        ]
+      },
+      {
+        "id": "M04",
+        "titre": "Gestionnaire de Risques",
+        "description": "Identifie, évalue et pilote les risques financiers et opérationnels de l'organisation.",
+        "blocs_requis": {
+          "B02": 0.9,
+          "B03": 1.0,
+          "B04": 0.8,
+          "B08": 0.7,
+          "B09": 0.8,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Risk Management",
+          "Bâle III",
+          "VaR",
+          "Conformité"
+        ],
+        "salaire_median": "48 000 – 80 000 €/an",
+        "secteurs": [
+          "Banque",
+          "Assurance",
+          "Finance"
+        ]
+      },
+      {
+        "id": "M05",
+        "titre": "Trader / Gestionnaire de Portefeuille",
+        "description": "Gère des portefeuilles d'actifs financiers pour maximiser le rendement ajusté au risque.",
+        "blocs_requis": {
+          "B02": 0.8,
+          "B04": 1.0,
+          "B05": 0.8,
+          "B08": 0.7,
+          "B09": 0.6
+        },
+        "competences_cles": [
+          "Marchés financiers",
+          "Bloomberg",
+          "Dérivés",
+          "Gestion d'actifs"
+        ],
+        "salaire_median": "55 000 – 150 000 €/an",
+        "secteurs": [
+          "Banque de marché",
+          "Gestion d'actifs",
+          "Hedge Fund"
+        ]
+      },
+      {
+        "id": "M06",
+        "titre": "Responsable Conformité / Compliance",
+        "description": "Assure le respect des réglementations et des normes applicables aux activités financières.",
+        "blocs_requis": {
+          "B03": 0.8,
+          "B06": 0.7,
+          "B09": 1.0,
+          "B10": 0.9,
+          "B05": 0.8
+        },
+        "competences_cles": [
+          "KYC",
+          "AML",
+          "MiFID",
+          "RGPD"
+        ],
+        "salaire_median": "50 000 – 85 000 €/an",
+        "secteurs": [
+          "Banque",
+          "Assurance",
+          "Asset Management"
+        ]
+      },
+      {
+        "id": "M07",
+        "titre": "Actuaire",
+        "description": "Évalue les risques et les engagements financiers des compagnies d'assurance via des modèles mathématiques.",
+        "blocs_requis": {
+          "B02": 1.0,
+          "B04": 0.8,
+          "B07": 1.0,
+          "B08": 0.8,
+          "B09": 0.7
+        },
+        "competences_cles": [
+          "Actuariat",
+          "Solvabilité II",
+          "Modélisation",
+          "R/Python"
+        ],
+        "salaire_median": "55 000 – 100 000 €/an",
+        "secteurs": [
+          "Assurance",
+          "Mutuelle",
+          "Réassurance",
+          "Conseil"
+        ]
+      },
+      {
+        "id": "M08",
+        "titre": "Expert-Comptable / DAF",
+        "description": "Supervise la comptabilité, la fiscalité et la gestion financière d'une entreprise ou d'un cabinet.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B02": 0.8,
+          "B05": 0.7,
+          "B06": 0.9,
+          "B08": 0.7,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Comptabilité",
+          "Fiscalité",
+          "PCG",
+          "Management"
+        ],
+        "salaire_median": "50 000 – 95 000 €/an",
+        "secteurs": [
+          "Cabinet comptable",
+          "Industrie",
+          "Services"
+        ]
+      },
+      {
+        "id": "M09",
+        "titre": "Analyste M&A / Corporate Finance",
+        "description": "Conseille les entreprises dans leurs opérations de fusions-acquisitions et de haut de bilan.",
+        "blocs_requis": {
+          "B02": 1.0,
+          "B05": 0.9,
+          "B04": 0.7,
+          "B10": 0.9,
+          "B09": 0.7
+        },
+        "competences_cles": [
+          "Valorisation",
+          "Due Diligence",
+          "Modélisation",
+          "Négociation"
+        ],
+        "salaire_median": "55 000 – 120 000 €/an",
+        "secteurs": [
+          "Banque d'affaires",
+          "Conseil",
+          "Private Equity"
+        ]
+      },
+      {
+        "id": "M10",
+        "titre": "Chargé de Clientèle Banque",
+        "description": "Gère un portefeuille de clients particuliers ou professionnels en leur proposant des solutions bancaires.",
+        "blocs_requis": {
+          "B01": 0.6,
+          "B02": 0.7,
+          "B05": 0.6,
+          "B08": 0.7,
+          "B09": 0.6,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Relation client",
+          "Produits bancaires",
+          "Crédit",
+          "Commercial"
+        ],
+        "salaire_median": "28 000 – 45 000 €/an",
+        "secteurs": [
+          "Banque",
+          "Assurance",
+          "Crédit"
+        ]
+      }
+    ]
+  },
+  "INDUSTRIE": {
+    "metiers": [
+      {
+        "id": "M01",
+        "titre": "Ingénieur Production",
+        "description": "Optimise les processus de fabrication et améliore la performance industrielle.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B02": 0.9,
+          "B03": 0.8,
+          "B05": 0.7,
+          "B06": 0.7,
+          "B08": 0.8
+        },
+        "competences_cles": [
+          "Lean",
+          "Planification",
+          "TRS",
+          "Amélioration continue"
+        ],
+        "salaire_median": "38 000 – 60 000 €/an",
+        "secteurs": [
+          "Automobile",
+          "Agroalimentaire",
+          "Pharma",
+          "Aéronautique"
+        ]
+      },
+      {
+        "id": "M02",
+        "titre": "Ingénieur Qualité",
+        "description": "Pilote les démarches qualité et assure la conformité des produits aux exigences clients et normatives.",
+        "blocs_requis": {
+          "B01": 0.8,
+          "B02": 1.0,
+          "B03": 0.7,
+          "B05": 0.7,
+          "B08": 0.6,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "ISO 9001",
+          "AMDEC",
+          "8D",
+          "Audit qualité"
+        ],
+        "salaire_median": "36 000 – 58 000 €/an",
+        "secteurs": [
+          "Automobile",
+          "Pharma",
+          "Aéronautique"
+        ]
+      },
+      {
+        "id": "M03",
+        "titre": "Ingénieur Maintenance",
+        "description": "Assure la disponibilité des équipements industriels en pilotant les opérations de maintenance.",
+        "blocs_requis": {
+          "B01": 0.7,
+          "B02": 0.8,
+          "B03": 1.0,
+          "B06": 0.6,
+          "B07": 0.7,
+          "B08": 0.7
+        },
+        "competences_cles": [
+          "GMAO",
+          "Maintenance préventive",
+          "Diagnostic",
+          "IoT"
+        ],
+        "salaire_median": "36 000 – 58 000 €/an",
+        "secteurs": [
+          "Énergie",
+          "Chimie",
+          "Automobile",
+          "Agroalimentaire"
+        ]
+      },
+      {
+        "id": "M04",
+        "titre": "Ingénieur Bureau d'Études",
+        "description": "Conçoit des produits ou des systèmes mécaniques en répondant aux exigences techniques et économiques.",
+        "blocs_requis": {
+          "B04": 1.0,
+          "B02": 0.8,
+          "B05": 0.6,
+          "B06": 0.7,
+          "B09": 0.7,
+          "B10": 0.6
+        },
+        "competences_cles": [
+          "SolidWorks",
+          "CATIA",
+          "FEA",
+          "Dimensionnement"
+        ],
+        "salaire_median": "38 000 – 62 000 €/an",
+        "secteurs": [
+          "Automobile",
+          "Aéronautique",
+          "Défense",
+          "Énergie"
+        ]
+      },
+      {
+        "id": "M05",
+        "titre": "Responsable HSE",
+        "description": "Définit et déploie la politique de santé, sécurité et environnement de l'entreprise.",
+        "blocs_requis": {
+          "B02": 0.8,
+          "B05": 1.0,
+          "B06": 0.7,
+          "B08": 0.7,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "DUER",
+          "ISO 14001",
+          "ISO 45001",
+          "Formation sécurité"
+        ],
+        "salaire_median": "42 000 – 68 000 €/an",
+        "secteurs": [
+          "Chimie",
+          "Industrie lourde",
+          "BTP",
+          "Énergie"
+        ]
+      },
+      {
+        "id": "M06",
+        "titre": "Responsable Supply Chain",
+        "description": "Pilote les flux de matières et de produits de l'approvisionnement à la livraison client.",
+        "blocs_requis": {
+          "B01": 0.8,
+          "B02": 0.7,
+          "B06": 1.0,
+          "B08": 0.7,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "MRP",
+          "SAP",
+          "Logistique",
+          "S&OP"
+        ],
+        "salaire_median": "45 000 – 72 000 €/an",
+        "secteurs": [
+          "Retail",
+          "Agroalimentaire",
+          "Automobile",
+          "Pharma"
+        ]
+      },
+      {
+        "id": "M07",
+        "titre": "Ingénieur Automaticien / Roboticien",
+        "description": "Conçoit et programme des systèmes automatisés et robotiques pour les processus industriels.",
+        "blocs_requis": {
+          "B04": 0.8,
+          "B07": 1.0,
+          "B03": 0.7,
+          "B06": 0.6,
+          "B10": 0.6
+        },
+        "competences_cles": [
+          "PLC",
+          "Robotique",
+          "Capteurs",
+          "IIoT"
+        ],
+        "salaire_median": "40 000 – 68 000 €/an",
+        "secteurs": [
+          "Automobile",
+          "Logistique",
+          "Agroalimentaire"
+        ]
+      },
+      {
+        "id": "M08",
+        "titre": "Directeur d'Usine / Site Manager",
+        "description": "Manage l'ensemble des opérations d'un site industriel en garantissant la performance globale.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B02": 0.8,
+          "B03": 0.7,
+          "B05": 0.7,
+          "B06": 0.7,
+          "B08": 0.9,
+          "B09": 0.9,
+          "B10": 1.0
+        },
+        "competences_cles": [
+          "Leadership",
+          "P&L",
+          "Lean",
+          "Management"
+        ],
+        "salaire_median": "65 000 – 110 000 €/an",
+        "secteurs": [
+          "Tous secteurs industriels"
+        ]
+      },
+      {
+        "id": "M09",
+        "titre": "Chef de Projet Innovation / R&D",
+        "description": "Pilote des projets de recherche et développement pour créer de nouveaux produits ou procédés.",
+        "blocs_requis": {
+          "B04": 0.7,
+          "B02": 0.8,
+          "B09": 1.0,
+          "B08": 0.7,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "R&D",
+          "Innovation",
+          "Gestion de projet",
+          "Brevets"
+        ],
+        "salaire_median": "42 000 – 70 000 €/an",
+        "secteurs": [
+          "Pharma",
+          "Chimie",
+          "Automobile",
+          "Énergie"
+        ]
+      },
+      {
+        "id": "M10",
+        "titre": "Technicien de Production",
+        "description": "Opère et surveille les équipements de production en assurant la qualité et la sécurité.",
+        "blocs_requis": {
+          "B01": 0.7,
+          "B02": 0.6,
+          "B03": 0.7,
+          "B05": 0.5,
+          "B08": 0.5
+        },
+        "competences_cles": [
+          "Conduite de machines",
+          "Contrôle qualité",
+          "Maintenance 1er niveau",
+          "EPI"
+        ],
+        "salaire_median": "24 000 – 36 000 €/an",
+        "secteurs": [
+          "Agroalimentaire",
+          "Chimie",
+          "Automobile",
+          "Pharma"
+        ]
+      }
+    ]
+  },
+  "SANTE": {
+    "metiers": [
+      {
+        "id": "M01",
+        "titre": "Infirmier(e) / Cadre de Santé",
+        "description": "Assure les soins infirmiers auprès des patients et coordonne les équipes paramédicales.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B02": 0.8,
+          "B04": 0.7,
+          "B08": 0.7,
+          "B09": 0.7,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Soins infirmiers",
+          "Coordination",
+          "IFSI",
+          "Relation patient"
+        ],
+        "salaire_median": "28 000 – 48 000 €/an",
+        "secteurs": [
+          "Hôpital",
+          "Clinique",
+          "EHPAD",
+          "Libéral"
+        ]
+      },
+      {
+        "id": "M02",
+        "titre": "Attaché de Recherche Clinique",
+        "description": "Coordonne et monitore les essais cliniques dans les centres investigateurs.",
+        "blocs_requis": {
+          "B02": 1.0,
+          "B03": 0.8,
+          "B04": 0.7,
+          "B08": 1.0,
+          "B09": 0.6,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "GCP",
+          "CRF",
+          "Monitoring",
+          "Biostatistiques"
+        ],
+        "salaire_median": "35 000 – 58 000 €/an",
+        "secteurs": [
+          "Pharma",
+          "CRO",
+          "Hôpitaux"
+        ]
+      },
+      {
+        "id": "M03",
+        "titre": "Pharmacien / Responsable Affaires Réglementaires",
+        "description": "Gère les autorisations de mise sur le marché et assure la conformité réglementaire des médicaments.",
+        "blocs_requis": {
+          "B03": 1.0,
+          "B04": 0.7,
+          "B08": 0.9,
+          "B09": 0.7,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "AMM",
+          "ANSM",
+          "EMA",
+          "Dossiers réglementaires"
+        ],
+        "salaire_median": "45 000 – 75 000 €/an",
+        "secteurs": [
+          "Industrie pharmaceutique",
+          "CRO",
+          "Hôpital"
+        ]
+      },
+      {
+        "id": "M04",
+        "titre": "Ingénieur Dispositifs Médicaux",
+        "description": "Développe et certifie des dispositifs médicaux conformément aux exigences réglementaires MDR.",
+        "blocs_requis": {
+          "B04": 0.7,
+          "B06": 1.0,
+          "B08": 0.9,
+          "B09": 0.7,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "MDR",
+          "ISO 13485",
+          "Évaluation clinique",
+          "Matériovigilance"
+        ],
+        "salaire_median": "42 000 – 70 000 €/an",
+        "secteurs": [
+          "MedTech",
+          "Hôpital",
+          "Consulting réglementaire"
+        ]
+      },
+      {
+        "id": "M05",
+        "titre": "Data Manager / Biostatisticien",
+        "description": "Gère et analyse les données cliniques pour en garantir la qualité et l'intégrité.",
+        "blocs_requis": {
+          "B02": 0.8,
+          "B04": 0.7,
+          "B05": 1.0,
+          "B07": 0.9,
+          "B08": 0.8
+        },
+        "competences_cles": [
+          "SAS",
+          "R",
+          "CDISC",
+          "Biostatistiques"
+        ],
+        "salaire_median": "40 000 – 68 000 €/an",
+        "secteurs": [
+          "Pharma",
+          "CRO",
+          "Institutionnel"
+        ]
+      },
+      {
+        "id": "M06",
+        "titre": "Médecin / Chef de Clinique",
+        "description": "Diagnostique et traite les patients en assurant la prise en charge médicale globale.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B02": 0.9,
+          "B04": 0.8,
+          "B05": 0.7,
+          "B09": 0.7,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Diagnostic",
+          "Thérapeutique",
+          "Coordination médicale",
+          "Formation"
+        ],
+        "salaire_median": "55 000 – 120 000 €/an",
+        "secteurs": [
+          "Hôpital",
+          "Clinique",
+          "Libéral",
+          "Recherche"
+        ]
+      },
+      {
+        "id": "M07",
+        "titre": "Responsable Assurance Qualité",
+        "description": "Pilote le système qualité GxP et assure la conformité des activités aux bonnes pratiques.",
+        "blocs_requis": {
+          "B03": 0.8,
+          "B08": 1.0,
+          "B09": 0.8,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "BPF",
+          "ISO 9001",
+          "Audits",
+          "CAPA"
+        ],
+        "salaire_median": "42 000 – 68 000 €/an",
+        "secteurs": [
+          "Pharma",
+          "Biotech",
+          "MedTech",
+          "CRO"
+        ]
+      },
+      {
+        "id": "M08",
+        "titre": "Médecin de Santé Publique / Épidémiologiste",
+        "description": "Analyse les données de santé d'une population et élabore des politiques de prévention.",
+        "blocs_requis": {
+          "B05": 1.0,
+          "B07": 0.9,
+          "B04": 0.7,
+          "B09": 0.7,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Épidémiologie",
+          "R",
+          "SAS",
+          "Santé publique"
+        ],
+        "salaire_median": "45 000 – 80 000 €/an",
+        "secteurs": [
+          "ARS",
+          "SPF",
+          "Institut de recherche",
+          "Mutualité"
+        ]
+      },
+      {
+        "id": "M09",
+        "titre": "Bioinformaticien",
+        "description": "Développe des outils et des pipelines d'analyse de données biologiques massives.",
+        "blocs_requis": {
+          "B04": 0.7,
+          "B05": 0.8,
+          "B07": 1.0,
+          "B08": 0.8,
+          "B10": 0.6
+        },
+        "competences_cles": [
+          "NGS",
+          "Python",
+          "R",
+          "Génomique"
+        ],
+        "salaire_median": "40 000 – 70 000 €/an",
+        "secteurs": [
+          "Recherche",
+          "Pharma",
+          "Biotech",
+          "Diagnostics"
+        ]
+      },
+      {
+        "id": "M10",
+        "titre": "Pharmacovigilant",
+        "description": "Collecte, évalue et déclare les effets indésirables des médicaments pour assurer la sécurité des patients.",
+        "blocs_requis": {
+          "B03": 1.0,
+          "B04": 0.7,
+          "B08": 0.8,
+          "B09": 0.6,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "EudraVigilance",
+          "PSUR",
+          "ICH E2",
+          "Signalement"
+        ],
+        "salaire_median": "38 000 – 60 000 €/an",
+        "secteurs": [
+          "Industrie pharmaceutique",
+          "CRO",
+          "Hôpital"
+        ]
+      }
+    ]
+  },
+  "COMMUNICATION_MEDIAS": {
+    "metiers": [
+      {
+        "id": "M01",
+        "titre": "Journaliste / Rédacteur en Chef",
+        "description": "Informe le public en recueillant, vérifiant et diffusant des informations via différents supports.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B02": 0.8,
+          "B03": 0.7,
+          "B04": 0.7,
+          "B08": 0.6,
+          "B09": 0.7
+        },
+        "competences_cles": [
+          "Rédaction",
+          "Vérification des sources",
+          "Web",
+          "Multimédia"
+        ],
+        "salaire_median": "28 000 – 55 000 €/an",
+        "secteurs": [
+          "Presse",
+          "Audiovisuel",
+          "Digital",
+          "Agences"
+        ]
+      },
+      {
+        "id": "M02",
+        "titre": "Responsable Communication",
+        "description": "Définit et déploie la stratégie de communication externe et interne de l'organisation.",
+        "blocs_requis": {
+          "B02": 0.8,
+          "B04": 0.9,
+          "B05": 0.7,
+          "B06": 0.8,
+          "B07": 0.7,
+          "B08": 0.7,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "Communication corporate",
+          "RP",
+          "Événementiel",
+          "Stratégie"
+        ],
+        "salaire_median": "42 000 – 72 000 €/an",
+        "secteurs": [
+          "Entreprises",
+          "Institutions",
+          "ONG"
+        ]
+      },
+      {
+        "id": "M03",
+        "titre": "Chargé de Relations Presse",
+        "description": "Développe et entretient les relations avec les journalistes pour relayer les messages de l'organisation.",
+        "blocs_requis": {
+          "B01": 0.8,
+          "B02": 1.0,
+          "B04": 0.7,
+          "B09": 0.7,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Relations médias",
+          "Communiqués de presse",
+          "Réseau journalistes",
+          "Porte-parole"
+        ],
+        "salaire_median": "32 000 – 52 000 €/an",
+        "secteurs": [
+          "Agences RP",
+          "Entreprises",
+          "Institutions"
+        ]
+      },
+      {
+        "id": "M04",
+        "titre": "Réalisateur / Vidéaste",
+        "description": "Conçoit et réalise des contenus audiovisuels pour des marques, médias ou institutions.",
+        "blocs_requis": {
+          "B01": 0.7,
+          "B03": 1.0,
+          "B04": 0.7,
+          "B05": 0.6,
+          "B07": 0.7
+        },
+        "competences_cles": [
+          "Premiere Pro",
+          "Prise de vue",
+          "Narration",
+          "Motion design"
+        ],
+        "salaire_median": "30 000 – 55 000 €/an",
+        "secteurs": [
+          "Agences",
+          "Production",
+          "Marques",
+          "Médias"
+        ]
+      },
+      {
+        "id": "M05",
+        "titre": "Responsable Communication Digitale",
+        "description": "Pilote la présence en ligne de la marque sur tous les canaux digitaux.",
+        "blocs_requis": {
+          "B04": 1.0,
+          "B03": 0.8,
+          "B06": 0.8,
+          "B07": 0.9,
+          "B08": 0.8,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Social media",
+          "SEO",
+          "Campagnes",
+          "Analytics"
+        ],
+        "salaire_median": "38 000 – 62 000 €/an",
+        "secteurs": [
+          "E-commerce",
+          "Startups",
+          "Agences",
+          "Entreprises"
+        ]
+      },
+      {
+        "id": "M06",
+        "titre": "Directeur Artistique / DA",
+        "description": "Définit et supervise l'identité visuelle des marques et la direction créative des projets.",
+        "blocs_requis": {
+          "B03": 0.8,
+          "B07": 1.0,
+          "B04": 0.7,
+          "B08": 0.6,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Adobe Creative Suite",
+          "Figma",
+          "Direction créative",
+          "Identité de marque"
+        ],
+        "salaire_median": "40 000 – 70 000 €/an",
+        "secteurs": [
+          "Agences créatives",
+          "Marques",
+          "Médias"
+        ]
+      },
+      {
+        "id": "M07",
+        "titre": "Événementialist / Chef de Projet Événements",
+        "description": "Conçoit et orchestre des événements professionnels de A à Z.",
+        "blocs_requis": {
+          "B04": 0.7,
+          "B05": 1.0,
+          "B06": 0.7,
+          "B08": 0.6,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "Logistique",
+          "Budget",
+          "Prestataires",
+          "Communication"
+        ],
+        "salaire_median": "30 000 – 52 000 €/an",
+        "secteurs": [
+          "Agences événementielles",
+          "Entreprises",
+          "Institutions"
+        ]
+      },
+      {
+        "id": "M08",
+        "titre": "Consultant en Communication de Crise",
+        "description": "Accompagne les organisations dans la gestion et la communication lors de situations de crise.",
+        "blocs_requis": {
+          "B02": 0.8,
+          "B04": 0.8,
+          "B06": 0.7,
+          "B09": 1.0,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "Gestion de crise",
+          "Médias",
+          "Porte-parole",
+          "Stratégie"
+        ],
+        "salaire_median": "50 000 – 90 000 €/an",
+        "secteurs": [
+          "Cabinets conseil",
+          "Grandes entreprises",
+          "Institutions"
+        ]
+      },
+      {
+        "id": "M09",
+        "titre": "Responsable Communication Interne",
+        "description": "Favorise l'engagement et l'information des collaborateurs via des dispositifs de communication adaptés.",
+        "blocs_requis": {
+          "B04": 0.7,
+          "B06": 1.0,
+          "B01": 0.6,
+          "B07": 0.8,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Intranet",
+          "Newsletters",
+          "Événements internes",
+          "Change management"
+        ],
+        "salaire_median": "38 000 – 60 000 €/an",
+        "secteurs": [
+          "Grandes entreprises",
+          "Groupes internationaux"
+        ]
+      },
+      {
+        "id": "M10",
+        "titre": "Attaché de Presse Freelance",
+        "description": "Gère en autonomie les relations presse de plusieurs clients pour maximiser leur visibilité médiatique.",
+        "blocs_requis": {
+          "B01": 0.8,
+          "B02": 1.0,
+          "B04": 0.7,
+          "B06": 0.6,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Réseau médias",
+          "Communiqués",
+          "Autonomie",
+          "Multiclients"
+        ],
+        "salaire_median": "25 000 – 50 000 €/an",
+        "secteurs": [
+          "Mode",
+          "Culture",
+          "Gastronomie",
+          "Tech"
+        ]
+      }
+    ]
+  },
+  "MANAGEMENT_RH": {
+    "metiers": [
+      {
+        "id": "M01",
+        "titre": "Responsable des Ressources Humaines",
+        "description": "Pilote l'ensemble des fonctions RH pour accompagner la stratégie et le développement des collaborateurs.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B02": 0.9,
+          "B03": 0.9,
+          "B04": 0.8,
+          "B05": 0.8,
+          "B06": 0.9,
+          "B08": 0.7,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "Généraliste RH",
+          "Management",
+          "Droit social",
+          "SIRH"
+        ],
+        "salaire_median": "45 000 – 75 000 €/an",
+        "secteurs": [
+          "Tous secteurs"
+        ]
+      },
+      {
+        "id": "M02",
+        "titre": "Talent Acquisition Manager",
+        "description": "Pilote la stratégie de recrutement et développe la marque employeur pour attirer les meilleurs profils.",
+        "blocs_requis": {
+          "B01": 0.8,
+          "B02": 1.0,
+          "B04": 0.7,
+          "B09": 0.7,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Sourcing",
+          "Marque employeur",
+          "ATS",
+          "LinkedIn Recruiter"
+        ],
+        "salaire_median": "42 000 – 68 000 €/an",
+        "secteurs": [
+          "Tech",
+          "Finance",
+          "Conseil",
+          "Tous secteurs"
+        ]
+      },
+      {
+        "id": "M03",
+        "titre": "Responsable Formation & Développement",
+        "description": "Conçoit et déploie la politique de formation et de développement des compétences.",
+        "blocs_requis": {
+          "B03": 1.0,
+          "B01": 0.8,
+          "B04": 0.6,
+          "B08": 0.7,
+          "B09": 0.8,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Ingénierie pédagogique",
+          "LMS",
+          "Plan de formation",
+          "GPEC"
+        ],
+        "salaire_median": "40 000 – 65 000 €/an",
+        "secteurs": [
+          "Grandes entreprises",
+          "Organismes de formation",
+          "Conseil"
+        ]
+      },
+      {
+        "id": "M04",
+        "titre": "Responsable Paie & Administration",
+        "description": "Supervise la gestion administrative du personnel et la production des bulletins de paie.",
+        "blocs_requis": {
+          "B04": 1.0,
+          "B05": 0.8,
+          "B08": 0.8,
+          "B09": 0.6,
+          "B10": 0.7
+        },
+        "competences_cles": [
+          "Paie",
+          "SILAE",
+          "Droit social",
+          "Déclarations sociales"
+        ],
+        "salaire_median": "38 000 – 58 000 €/an",
+        "secteurs": [
+          "Tous secteurs",
+          "Cabinets expertise sociale"
+        ]
+      },
+      {
+        "id": "M05",
+        "titre": "Directeur des Ressources Humaines",
+        "description": "Définit la stratégie RH et pilote l'ensemble de la fonction RH en lien avec la direction générale.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B02": 0.9,
+          "B03": 0.8,
+          "B05": 0.9,
+          "B06": 1.0,
+          "B08": 0.8,
+          "B09": 0.8,
+          "B10": 1.0
+        },
+        "competences_cles": [
+          "Vision stratégique",
+          "Leadership RH",
+          "Relations sociales",
+          "Transformation"
+        ],
+        "salaire_median": "70 000 – 130 000 €/an",
+        "secteurs": [
+          "Grandes entreprises",
+          "ETI",
+          "Secteur public"
+        ]
+      },
+      {
+        "id": "M06",
+        "titre": "HRBP / Business Partner RH",
+        "description": "Accompagne les managers opérationnels comme partenaire RH stratégique sur toutes les questions RH.",
+        "blocs_requis": {
+          "B01": 0.9,
+          "B02": 0.8,
+          "B03": 0.7,
+          "B04": 0.7,
+          "B05": 0.7,
+          "B09": 0.8,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "Conseil aux managers",
+          "Développement RH",
+          "Droit social",
+          "Dialogue"
+        ],
+        "salaire_median": "48 000 – 78 000 €/an",
+        "secteurs": [
+          "Grandes entreprises",
+          "Multinationales"
+        ]
+      },
+      {
+        "id": "M07",
+        "titre": "Responsable Relations Sociales",
+        "description": "Pilote le dialogue social et les relations avec les représentants du personnel.",
+        "blocs_requis": {
+          "B05": 0.9,
+          "B06": 1.0,
+          "B04": 0.8,
+          "B01": 0.7,
+          "B10": 0.9
+        },
+        "competences_cles": [
+          "Négociation NAO",
+          "CSE",
+          "Accords collectifs",
+          "Contentieux"
+        ],
+        "salaire_median": "50 000 – 80 000 €/an",
+        "secteurs": [
+          "Grandes entreprises",
+          "Secteur industriel",
+          "Services publics"
+        ]
+      },
+      {
+        "id": "M08",
+        "titre": "Consultant RH / Change Management",
+        "description": "Accompagne les organisations dans leurs transformations et projets de changement liés à la dimension humaine.",
+        "blocs_requis": {
+          "B01": 0.8,
+          "B03": 0.8,
+          "B06": 0.7,
+          "B07": 0.9,
+          "B09": 0.8,
+          "B10": 1.0
+        },
+        "competences_cles": [
+          "Conseil",
+          "Conduite du changement",
+          "Formation",
+          "Facilitation"
+        ],
+        "salaire_median": "45 000 – 85 000 €/an",
+        "secteurs": [
+          "Cabinets conseil",
+          "Grandes entreprises",
+          "Secteur public"
+        ]
+      },
+      {
+        "id": "M09",
+        "titre": "Responsable SIRH",
+        "description": "Pilote les projets d'implémentation et d'évolution des systèmes d'information RH.",
+        "blocs_requis": {
+          "B04": 0.7,
+          "B07": 0.7,
+          "B08": 1.0,
+          "B09": 0.7,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "SAP SuccessFactors",
+          "Workday",
+          "Projet SIRH",
+          "RGPD"
+        ],
+        "salaire_median": "45 000 – 72 000 €/an",
+        "secteurs": [
+          "Grandes entreprises",
+          "Éditeurs SIRH",
+          "Consulting"
+        ]
+      },
+      {
+        "id": "M10",
+        "titre": "Manager d'Équipe",
+        "description": "Anime et développe une équipe opérationnelle pour atteindre les objectifs de performance.",
+        "blocs_requis": {
+          "B01": 1.0,
+          "B03": 0.6,
+          "B04": 0.6,
+          "B09": 0.7,
+          "B10": 0.8
+        },
+        "competences_cles": [
+          "Leadership",
+          "Feedback",
+          "OKR",
+          "Cohésion d'équipe"
+        ],
+        "salaire_median": "38 000 – 65 000 €/an",
+        "secteurs": [
+          "Tous secteurs"
+        ]
+      }
+    ]
+  }
+}

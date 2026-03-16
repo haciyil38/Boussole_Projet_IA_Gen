@@ -1,0 +1,1264 @@
+{
+  "DATA_IA": {
+    "blocs": [
+      {
+        "id": "B01",
+        "nom": "Programmation & Algorithmique",
+        "poids": 1.2,
+        "competences": [
+          "écrire des scripts Python pour automatiser des tâches",
+          "maîtriser les structures de données et l'algorithmique",
+          "programmer en orienté objet",
+          "utiliser NumPy, Pandas, Matplotlib",
+          "déboguer et tester son code",
+          "utiliser Git pour versionner et collaborer",
+          "comprendre la complexité algorithmique",
+          "écrire des fonctions réutilisables et modulaires"
+        ]
+      },
+      {
+        "id": "B02",
+        "nom": "Mathématiques & Statistiques",
+        "poids": 1.1,
+        "competences": [
+          "calculer des statistiques descriptives",
+          "comprendre les distributions de probabilité",
+          "appliquer l'algèbre linéaire",
+          "utiliser la régression linéaire et logistique",
+          "interpréter des intervalles de confiance et p-values",
+          "réaliser des analyses de corrélation",
+          "maîtriser le calcul différentiel pour l'optimisation",
+          "comprendre la théorie bayésienne"
+        ]
+      },
+      {
+        "id": "B03",
+        "nom": "Traitement & Préparation des Données",
+        "poids": 1.3,
+        "competences": [
+          "nettoyer des données brutes en gérant les valeurs manquantes",
+          "transformer et normaliser des données",
+          "réaliser des jointures et agrégations Pandas",
+          "encoder des variables catégorielles",
+          "détecter et traiter les outliers",
+          "créer des pipelines de prétraitement avec sklearn",
+          "travailler avec des données textuelles",
+          "manipuler CSV, JSON, Excel et bases SQL"
+        ]
+      },
+      {
+        "id": "B04",
+        "nom": "Machine Learning",
+        "poids": 1.3,
+        "competences": [
+          "entraîner des modèles de classification supervisée",
+          "appliquer des algorithmes de régression",
+          "mettre en œuvre du clustering non supervisé",
+          "évaluer un modèle avec accuracy, F1-score, AUC-ROC",
+          "réaliser une validation croisée",
+          "optimiser les hyperparamètres avec GridSearch",
+          "utiliser scikit-learn pour des pipelines ML",
+          "interpréter un modèle avec SHAP"
+        ]
+      },
+      {
+        "id": "B05",
+        "nom": "Deep Learning & Réseaux de Neurones",
+        "poids": 1.1,
+        "competences": [
+          "concevoir et entraîner des réseaux de neurones avec PyTorch",
+          "comprendre la rétropropagation et la descente de gradient",
+          "utiliser des CNN pour la classification d'images",
+          "appliquer des LSTM pour les séquences temporelles",
+          "utiliser le transfer learning",
+          "régulariser avec dropout et batch normalization",
+          "entraîner des modèles sur GPU",
+          "comprendre l'architecture des transformers"
+        ]
+      },
+      {
+        "id": "B06",
+        "nom": "NLP & Traitement du Langage",
+        "poids": 1.4,
+        "competences": [
+          "réaliser la tokenisation et la lemmatisation de textes",
+          "créer des embeddings de mots Word2Vec ou fastText",
+          "utiliser des embeddings contextuels BERT ou SBERT",
+          "calculer la similarité sémantique entre phrases",
+          "classer des textes avec des modèles NLP supervisés",
+          "extraire des entités nommées avec NER",
+          "résumer automatiquement des textes",
+          "analyser les sentiments dans des avis"
+        ]
+      },
+      {
+        "id": "B07",
+        "nom": "IA Générative & LLM",
+        "poids": 1.4,
+        "competences": [
+          "utiliser des API de grands modèles de langage GPT ou Gemini",
+          "concevoir des prompts efficaces avec le prompt engineering",
+          "mettre en place un pipeline RAG",
+          "intégrer un système de cache pour limiter les appels API",
+          "générer du contenu personnalisé à partir d'un contexte enrichi",
+          "évaluer la qualité des sorties génératives",
+          "utiliser LangChain ou LlamaIndex pour l'orchestration",
+          "comprendre les hallucinations et mettre en place des garde-fous"
+        ]
+      },
+      {
+        "id": "B08",
+        "nom": "Data Engineering & Architecture",
+        "poids": 1.1,
+        "competences": [
+          "concevoir des pipelines de données ETL de bout en bout",
+          "utiliser des bases de données relationnelles et NoSQL",
+          "travailler avec des outils Big Data Spark ou Kafka",
+          "mettre en place des bases de données vectorielles",
+          "orchestrer des workflows avec Airflow",
+          "déployer des applications dans des environnements cloud",
+          "concevoir des architectures de données scalables",
+          "monitorer des pipelines de données en production"
+        ]
+      },
+      {
+        "id": "B09",
+        "nom": "Visualisation & Communication",
+        "poids": 1.0,
+        "competences": [
+          "créer des graphiques clairs avec Matplotlib ou Seaborn",
+          "construire des tableaux de bord interactifs avec Plotly",
+          "développer des interfaces utilisateur avec Streamlit",
+          "communiquer des résultats à un public non technique",
+          "choisir le bon type de graphique selon les données",
+          "réaliser des visualisations de réseaux sémantiques",
+          "documenter et présenter des projets data",
+          "utiliser Power BI ou Tableau pour des rapports métiers"
+        ]
+      },
+      {
+        "id": "B10",
+        "nom": "Gestion de Projet & Équipe",
+        "poids": 0.9,
+        "competences": [
+          "planifier un projet avec une méthode Agile ou Kanban",
+          "rédiger des user stories et définir des critères d'acceptance",
+          "collaborer en équipe avec GitHub et Jira",
+          "estimer les délais et gérer les risques",
+          "rédiger une documentation technique claire",
+          "animer des réunions de suivi et des retrospectives",
+          "présenter oralement un projet technique",
+          "respecter des contraintes de délais et de qualité"
+        ]
+      },
+      {
+        "id": "B11",
+        "nom": "Éthique, RGPD & IA Responsable",
+        "poids": 0.9,
+        "competences": [
+          "identifier les biais dans les données et les modèles d'IA",
+          "appliquer les principes du RGPD",
+          "évaluer l'impact environnemental des modèles d'IA",
+          "mettre en place des mécanismes de transparence",
+          "comprendre les enjeux de la gouvernance des données",
+          "documenter les choix éthiques dans un projet IA",
+          "gérer la confidentialité et la sécurité des données sensibles",
+          "appliquer les bonnes pratiques de sécurisation des API"
+        ]
+      },
+      {
+        "id": "B12",
+        "nom": "Cloud & DevOps",
+        "poids": 0.9,
+        "competences": [
+          "déployer des applications avec Docker et des conteneurs",
+          "utiliser des services cloud pour héberger des modèles ML",
+          "mettre en place une intégration continue CI/CD",
+          "gérer des environnements virtuels Python",
+          "utiliser des APIs REST pour exposer des modèles ML",
+          "monitorer les performances d'une application en production",
+          "configurer des variables d'environnement",
+          "utiliser Kubernetes pour l'orchestration de conteneurs"
+        ]
+      }
+    ]
+  },
+  "NUMERIQUE_IT": {
+    "blocs": [
+      {
+        "id": "B01",
+        "nom": "Développement Logiciel",
+        "poids": 1.4,
+        "competences": [
+          "développer des applications web avec des frameworks modernes",
+          "concevoir des API REST et GraphQL",
+          "appliquer les principes SOLID et les design patterns",
+          "réaliser des tests unitaires et d'intégration",
+          "utiliser Git et les bonnes pratiques de versioning",
+          "lire et écrire du code propre et documenté",
+          "développer en environnement agile avec des sprints",
+          "déployer des applications en production"
+        ]
+      },
+      {
+        "id": "B02",
+        "nom": "Architecture & Systèmes d'Information",
+        "poids": 1.3,
+        "competences": [
+          "concevoir des architectures microservices et distribuées",
+          "modéliser des systèmes avec UML et C4",
+          "définir des stratégies d'intégration et de migration",
+          "comprendre les patterns d'architecture cloud-native",
+          "rédiger des ADR et des dossiers d'architecture",
+          "évaluer les compromis techniques des architectures",
+          "concevoir des systèmes hautement disponibles",
+          "appliquer les principes du Domain-Driven Design DDD"
+        ]
+      },
+      {
+        "id": "B03",
+        "nom": "Bases de Données & Données",
+        "poids": 1.2,
+        "competences": [
+          "concevoir et optimiser des bases de données relationnelles SQL",
+          "utiliser des bases NoSQL MongoDB Redis Elasticsearch",
+          "écrire des requêtes SQL complexes et optimisées",
+          "mettre en place des stratégies de sauvegarde et de reprise",
+          "comprendre les transactions et les niveaux d'isolation",
+          "modéliser des entités et des relations",
+          "utiliser des ORM comme SQLAlchemy ou Hibernate",
+          "mettre en place des pipelines de données"
+        ]
+      },
+      {
+        "id": "B04",
+        "nom": "Cybersécurité",
+        "poids": 1.2,
+        "competences": [
+          "identifier et corriger les vulnérabilités applicatives OWASP",
+          "réaliser des tests d'intrusion et des audits de sécurité",
+          "mettre en place des mécanismes d'authentification et d'autorisation",
+          "chiffrer les données au repos et en transit",
+          "configurer des firewalls et des systèmes de détection d'intrusion",
+          "analyser des logs de sécurité avec des outils SIEM",
+          "appliquer les principes du Zero Trust",
+          "rédiger des politiques de sécurité"
+        ]
+      },
+      {
+        "id": "B05",
+        "nom": "Réseaux & Systèmes",
+        "poids": 1.0,
+        "competences": [
+          "administrer des serveurs Linux et Windows Server",
+          "configurer des réseaux IP et des protocoles TCP/IP",
+          "mettre en place des VPN et des solutions de connectivité",
+          "diagnostiquer et résoudre des incidents réseau",
+          "gérer des DNS, DHCP, et services d'annuaire Active Directory",
+          "monitorer les infrastructures avec des outils de supervision",
+          "documenter les architectures réseau",
+          "appliquer les bonnes pratiques de sécurité réseau"
+        ]
+      },
+      {
+        "id": "B06",
+        "nom": "Cloud & DevOps",
+        "poids": 1.3,
+        "competences": [
+          "déployer des applications sur AWS, GCP ou Azure",
+          "utiliser Docker et Kubernetes pour la conteneurisation",
+          "mettre en place des pipelines CI/CD avec GitHub Actions ou Jenkins",
+          "gérer l'infrastructure as Code avec Terraform ou Ansible",
+          "monitorer les applications avec Prometheus et Grafana",
+          "optimiser les coûts cloud",
+          "appliquer les principes du Site Reliability Engineering SRE",
+          "gérer les secrets et les accès avec IAM"
+        ]
+      },
+      {
+        "id": "B07",
+        "nom": "Gestion de Projet IT",
+        "poids": 1.0,
+        "competences": [
+          "piloter des projets IT en méthodes Agile et Scrum",
+          "animer des cérémonies Agile sprint planning rétrospective",
+          "rédiger des spécifications fonctionnelles et techniques",
+          "gérer un backlog et prioriser les user stories",
+          "communiquer avec les parties prenantes métier et technique",
+          "gérer les risques et les dépendances d'un projet IT",
+          "produire des plans de projet et des reporting d'avancement",
+          "assurer la conduite du changement"
+        ]
+      },
+      {
+        "id": "B08",
+        "nom": "UX & Design",
+        "poids": 0.8,
+        "competences": [
+          "concevoir des maquettes et des prototypes avec Figma",
+          "réaliser des tests utilisateurs et analyser les résultats",
+          "appliquer les principes d'accessibilité WCAG",
+          "créer des design systems et des composants réutilisables",
+          "conduire des recherches utilisateurs entretiens et observations",
+          "analyser les parcours utilisateur et les points de friction",
+          "définir des personas et des scénarios d'usage",
+          "collaborer avec les développeurs pour l'intégration"
+        ]
+      },
+      {
+        "id": "B09",
+        "nom": "Qualité & Tests",
+        "poids": 0.9,
+        "competences": [
+          "rédiger des plans de test et des cahiers de recette",
+          "réaliser des tests fonctionnels et des tests de régression",
+          "automatiser des tests avec Selenium ou Cypress",
+          "effectuer des tests de performance et de charge",
+          "utiliser des outils de gestion des anomalies comme Jira",
+          "appliquer les méthodes TDD et BDD",
+          "mesurer la couverture de code",
+          "réaliser des audits qualité"
+        ]
+      },
+      {
+        "id": "B10",
+        "nom": "Support & Maintenance",
+        "poids": 0.7,
+        "competences": [
+          "assurer le support technique de niveau 1 et 2",
+          "diagnostiquer et résoudre des incidents applicatifs en production",
+          "rédiger des procédures et des bases de connaissances",
+          "mettre en place des SLA et des tableaux de bord ITIL",
+          "former les utilisateurs aux outils et aux applications",
+          "gérer les mises à jour et les correctifs de sécurité",
+          "assurer une veille technologique",
+          "documenter les configurations et les procédures"
+        ]
+      }
+    ]
+  },
+  "COMMERCE_MARKETING": {
+    "blocs": [
+      {
+        "id": "B01",
+        "nom": "Prospection & Vente",
+        "poids": 1.4,
+        "competences": [
+          "identifier et qualifier des prospects via différents canaux",
+          "réaliser des appels de prospection à froid et de suivi",
+          "conduire des entretiens de découverte et de vente",
+          "négocier des contrats et des conditions commerciales",
+          "conclure des ventes et gérer les objections",
+          "gérer un pipeline commercial dans un CRM",
+          "atteindre et dépasser des objectifs de chiffre d'affaires",
+          "fidéliser un portefeuille de clients existants"
+        ]
+      },
+      {
+        "id": "B02",
+        "nom": "Marketing Digital SEO/SEA",
+        "poids": 1.3,
+        "competences": [
+          "optimiser le référencement naturel on-page et off-page",
+          "créer et gérer des campagnes Google Ads",
+          "mettre en place des campagnes Social Ads Facebook Instagram LinkedIn",
+          "analyser les performances avec Google Analytics et Search Console",
+          "réaliser des audits SEO et définir des stratégies de mots-clés",
+          "créer des landing pages optimisées pour la conversion",
+          "utiliser un outil de gestion des enchères programmatiques",
+          "mesurer le ROI des campagnes digitales"
+        ]
+      },
+      {
+        "id": "B03",
+        "nom": "Social Media & Influence",
+        "poids": 1.1,
+        "competences": [
+          "développer une stratégie de contenu sur les réseaux sociaux",
+          "créer et publishier des contenus engageants sur Instagram LinkedIn TikTok",
+          "gérer et animer des communautés en ligne",
+          "collaborer avec des influenceurs et des créateurs de contenu",
+          "analyser les métriques d'engagement et l'audience",
+          "mettre en place des campagnes d'influence",
+          "modérer les commentaires et les messages",
+          "veiller à l'e-réputation de la marque"
+        ]
+      },
+      {
+        "id": "B04",
+        "nom": "E-commerce & Conversion",
+        "poids": 1.1,
+        "competences": [
+          "gérer une boutique en ligne sur Shopify WooCommerce ou PrestaShop",
+          "optimiser les fiches produits et le catalogue",
+          "mettre en place des tunnels de conversion optimisés",
+          "analyser les taux de conversion et réduire l'abandon de panier",
+          "gérer les campagnes de retargeting",
+          "mettre en place des programmes de fidélité",
+          "optimiser l'expérience utilisateur mobile",
+          "gérer les flux logistiques et les retours"
+        ]
+      },
+      {
+        "id": "B05",
+        "nom": "CRM & Relation Client",
+        "poids": 1.1,
+        "competences": [
+          "configurer et utiliser un CRM comme Salesforce ou HubSpot",
+          "segmenter la base client et définir des personas",
+          "créer des workflows d'automatisation marketing",
+          "gérer les campagnes d'emailing et en mesurer les KPI",
+          "mettre en place un programme de fidélité clients",
+          "analyser le parcours client et identifier les points de friction",
+          "gérer les réclamations et améliorer la satisfaction",
+          "calculer et optimiser le LTV et le taux de churn"
+        ]
+      },
+      {
+        "id": "B06",
+        "nom": "Création de Contenu",
+        "poids": 1.0,
+        "competences": [
+          "rédiger des articles de blog et du contenu SEO",
+          "créer des visuels et des assets graphiques",
+          "produire des vidéos courtes pour les réseaux sociaux",
+          "concevoir des newsletters et des emails engageants",
+          "rédiger des livres blancs et des études de cas",
+          "créer des infographies et des présentations",
+          "conduire des interviews et produire des témoignages clients",
+          "adapter les contenus aux différents canaux et audiences"
+        ]
+      },
+      {
+        "id": "B07",
+        "nom": "Data & Analyse Marketing",
+        "poids": 1.2,
+        "competences": [
+          "analyser les données marketing avec Google Analytics et Looker Studio",
+          "créer des tableaux de bord de performance marketing",
+          "calculer des KPI essentiels CAC LTV ROI ROAS",
+          "réaliser des tests A/B et interpréter les résultats",
+          "extraire et analyser des données depuis un CRM",
+          "utiliser des outils de BI pour la prise de décision",
+          "comprendre les modèles d'attribution multi-touch",
+          "suivre et analyser les tendances du marché"
+        ]
+      },
+      {
+        "id": "B08",
+        "nom": "Stratégie & Planification",
+        "poids": 1.0,
+        "competences": [
+          "réaliser des études de marché et des analyses concurrentielles",
+          "définir et positionner des offres et des propositions de valeur",
+          "élaborer des plans marketing annuels et trimestriels",
+          "définir des personas et des parcours acheteurs",
+          "piloter un budget marketing et optimiser les dépenses",
+          "identifier les opportunités de croissance",
+          "rédiger des briefs créatifs et commerciaux",
+          "animer des comités de direction commerciale"
+        ]
+      },
+      {
+        "id": "B09",
+        "nom": "Négociation & Grands Comptes",
+        "poids": 1.1,
+        "competences": [
+          "gérer des portefeuilles de grands comptes stratégiques",
+          "préparer et mener des négociations commerciales complexes",
+          "construire des offres sur-mesure et des business cases",
+          "gérer les appels d'offres et les réponses à consultation",
+          "animer des comités clients et des business reviews",
+          "développer des partenariats et des accords commerciaux",
+          "piloter la rentabilité d'un compte client",
+          "coordonner des équipes pluridisciplinaires sur des comptes clés"
+        ]
+      },
+      {
+        "id": "B10",
+        "nom": "Communication & Présentation",
+        "poids": 0.9,
+        "competences": [
+          "réaliser des présentations commerciales percutantes",
+          "s'exprimer en public avec aisance et conviction",
+          "rédiger des propositions commerciales professionnelles",
+          "communiquer en anglais à l'oral et à l'écrit",
+          "animer des démonstrations et des webinaires produit",
+          "argumenter et répondre aux objections avec méthode",
+          "adapter son discours à différents interlocuteurs",
+          "représenter l'entreprise lors de salons et d'événements"
+        ]
+      }
+    ]
+  },
+  "FINANCE_BANQUE": {
+    "blocs": [
+      {
+        "id": "B01",
+        "nom": "Comptabilité Générale & Analytique",
+        "poids": 1.3,
+        "competences": [
+          "produire des états financiers bilan compte de résultat et annexes",
+          "réaliser les clôtures comptables mensuelles et annuelles",
+          "maîtriser le plan comptable général PCG",
+          "appliquer les normes IFRS dans la comptabilisation",
+          "réconcilier les comptes et justifier les écritures",
+          "gérer la comptabilité analytique et les centres de coût",
+          "préparer les liasses fiscales",
+          "gérer la comptabilité multi-entités et consolidée"
+        ]
+      },
+      {
+        "id": "B02",
+        "nom": "Analyse Financière",
+        "poids": 1.3,
+        "competences": [
+          "analyser les états financiers et calculer des ratios clés",
+          "réaliser des prévisions de trésorerie et des budgets",
+          "valoriser une entreprise avec différentes méthodes DCF comparables",
+          "construire des business plans et des modèles financiers",
+          "analyser la profitabilité et la performance des activités",
+          "rédiger des notes d'analyse financière",
+          "présenter des résultats financiers à des dirigeants",
+          "interpréter les variations et les écarts budgétaires"
+        ]
+      },
+      {
+        "id": "B03",
+        "nom": "Gestion des Risques & Conformité",
+        "poids": 1.2,
+        "competences": [
+          "identifier et cartographier les risques opérationnels et financiers",
+          "mettre en place des procédures de contrôle interne",
+          "appliquer les réglementations bancaires Bâle III et Solvabilité II",
+          "réaliser des stress tests et des analyses de sensibilité",
+          "gérer la conformité réglementaire KYC AML RGPD",
+          "produire des reportings réglementaires pour les autorités",
+          "suivre les recommandations d'audit",
+          "gérer les dispositifs de continuité d'activité"
+        ]
+      },
+      {
+        "id": "B04",
+        "nom": "Marchés Financiers & Investissement",
+        "poids": 1.1,
+        "competences": [
+          "analyser les marchés actions obligations et produits dérivés",
+          "gérer des portefeuilles selon des mandats d'investissement",
+          "utiliser les outils Bloomberg ou Reuters pour l'analyse",
+          "comprendre et valoriser les instruments dérivés",
+          "réaliser des analyses techniques et fondamentales",
+          "passer des ordres sur les marchés financiers",
+          "gérer le risque de marché et de contrepartie",
+          "productre des reportings de performance et d'attribution"
+        ]
+      },
+      {
+        "id": "B05",
+        "nom": "Audit & Contrôle",
+        "poids": 1.1,
+        "competences": [
+          "planifier et réaliser des missions d'audit interne ou externe",
+          "évaluer le dispositif de contrôle interne",
+          "rédiger des rapports d'audit et des recommandations",
+          "réaliser des due diligences financières pour des M&A",
+          "contrôler la conformité des processus comptables",
+          "tester des contrôles clés et évaluer leur efficacité",
+          "interviewer des responsables et analyser des documents",
+          "suivre la mise en oeuvre des plans d'action"
+        ]
+      },
+      {
+        "id": "B06",
+        "nom": "Fiscalité & Droit",
+        "poids": 0.9,
+        "competences": [
+          "maîtriser la fiscalité des entreprises IS TVA et autres taxes",
+          "optimiser la structure fiscale d'un groupe",
+          "gérer les déclarations fiscales et les contrôles",
+          "comprendre le droit des sociétés et des contrats",
+          "rédiger des contrats commerciaux et des clauses",
+          "gérer les contentieux fiscaux et juridiques",
+          "conseiller sur la fiscalité internationale",
+          "appliquer les règles de prix de transfert"
+        ]
+      },
+      {
+        "id": "B07",
+        "nom": "Assurance & Actuariat",
+        "poids": 1.0,
+        "competences": [
+          "maîtriser les produits d'assurance IARD et vie",
+          "évaluer les risques et tarifier des contrats d'assurance",
+          "gérer la souscription et les portefeuilles de contrats",
+          "calculer des provisions techniques actuarielles",
+          "analyser les sinistres et gérer leur règlement",
+          "rédiger des rapports actuariels et des études de risque",
+          "appliquer la réglementation Solvabilité II",
+          "modéliser les flux de trésorerie d'une compagnie d'assurance"
+        ]
+      },
+      {
+        "id": "B08",
+        "nom": "Outils Financiers",
+        "poids": 0.9,
+        "competences": [
+          "maîtriser Excel avancé tableaux croisés macros VBA",
+          "utiliser des ERP financiers SAP Oracle ou Sage",
+          "exploiter des outils de BI financière Power BI ou Qlik",
+          "programmer en Python pour l'analyse financière",
+          "utiliser Bloomberg Terminal ou Reuters Eikon",
+          "créer des modèles financiers complexes",
+          "automatiser des tâches récurrentes avec des macros",
+          "extraire et consolider des données depuis plusieurs sources"
+        ]
+      },
+      {
+        "id": "B09",
+        "nom": "Conformité & Réglementation",
+        "poids": 1.1,
+        "competences": [
+          "mettre en oeuvre les exigences KYC Know Your Customer",
+          "déployer les dispositifs de lutte contre le blanchiment LCB-FT",
+          "gérer la conformité RGPD dans les traitements de données financières",
+          "appliquer les règles MiFID II dans les activités d'investissement",
+          "produire les reportings réglementaires COREP FINREP",
+          "gérer les relations avec les régulateurs AMF ACPR",
+          "former les équipes aux obligations réglementaires",
+          "documenter les procédures de conformité"
+        ]
+      },
+      {
+        "id": "B10",
+        "nom": "Communication Financière",
+        "poids": 0.8,
+        "competences": [
+          "rédiger des rapports annuels et des documents de référence",
+          "communiquer avec les investisseurs et les analystes",
+          "préparer et animer des roadshows et des présentations investor relations",
+          "produire des communiqués de presse financiers",
+          "rédiger des notes aux actionnaires",
+          "préparer les Assemblées Générales",
+          "gérer les relations avec les agences de notation",
+          "analyser et benchmarker les communications de concurrents"
+        ]
+      }
+    ]
+  },
+  "INDUSTRIE": {
+    "blocs": [
+      {
+        "id": "B01",
+        "nom": "Gestion de Production",
+        "poids": 1.3,
+        "competences": [
+          "planifier et ordonnancer la production",
+          "optimiser les flux de production avec le lean manufacturing",
+          "réduire les temps de changement de série SMED",
+          "analyser et réduire les gaspillages Muda",
+          "piloter des indicateurs de performance TRS OEE",
+          "gérer les stocks et l'approvisionnement en composants",
+          "coordonner les équipes de production",
+          "assurer le respect des délais et des objectifs de volume"
+        ]
+      },
+      {
+        "id": "B02",
+        "nom": "Qualité & Amélioration Continue",
+        "poids": 1.3,
+        "competences": [
+          "piloter un système de management de la qualité ISO 9001",
+          "réaliser des audits internes et des audits fournisseurs",
+          "utiliser les outils qualité 8D AMDEC diagramme Ishikawa",
+          "animer des groupes de travail résolution de problèmes",
+          "analyser les causes racines avec la méthode des 5 pourquoi",
+          "gérer les non-conformités et les actions correctives",
+          "mettre en place des plans de surveillance et de contrôle",
+          "former les équipes aux bonnes pratiques qualité"
+        ]
+      },
+      {
+        "id": "B03",
+        "nom": "Maintenance Industrielle",
+        "poids": 1.2,
+        "competences": [
+          "planifier et réaliser la maintenance préventive des équipements",
+          "diagnostiquer et résoudre les pannes sur des machines industrielles",
+          "utiliser une GMAO pour le suivi des interventions",
+          "mettre en place la maintenance prédictive avec des capteurs IoT",
+          "rédiger des modes opératoires de maintenance",
+          "gérer les pièces de rechange et le stock de consommables",
+          "analyser les indicateurs de fiabilité MTBF MTTR",
+          "former les opérateurs à la maintenance de premier niveau"
+        ]
+      },
+      {
+        "id": "B04",
+        "nom": "Bureau d'Études & CAO",
+        "poids": 1.1,
+        "competences": [
+          "concevoir des pièces et des assemblages mécaniques sur SolidWorks ou CATIA",
+          "réaliser des plans techniques conformes aux normes",
+          "effectuer des calculs de résistance des matériaux",
+          "réaliser des simulations par éléments finis FEA",
+          "gérer les nomenclatures et les gammes de fabrication",
+          "rédiger des cahiers des charges techniques",
+          "conduire des revues de conception et des AMDEC",
+          "gérer les évolutions techniques avec un logiciel PLM"
+        ]
+      },
+      {
+        "id": "B05",
+        "nom": "HSE",
+        "poids": 1.1,
+        "competences": [
+          "réaliser et actualiser le document unique d'évaluation des risques DUER",
+          "animer des formations et des causeries sécurité",
+          "enquêter sur les accidents du travail et définir des actions préventives",
+          "gérer les équipements de protection individuelle",
+          "mettre en place un système de management environnemental ISO 14001",
+          "réduire les déchets et gérer les effluents industriels",
+          "assurer la conformité réglementaire ICPE",
+          "piloter les indicateurs HSE et produire des reportings"
+        ]
+      },
+      {
+        "id": "B06",
+        "nom": "Supply Chain & Logistique",
+        "poids": 1.0,
+        "competences": [
+          "gérer les approvisionnements et les relations fournisseurs",
+          "planifier les besoins en composants avec un MRP",
+          "optimiser les niveaux de stocks et les points de commande",
+          "coordonner les flux entrants et sortants de l'entrepôt",
+          "gérer les transports et les prestataires logistiques",
+          "piloter les indicateurs de performance logistique",
+          "mettre en place des processus lean dans la supply chain",
+          "gérer les risques de rupture et les plans de continuité"
+        ]
+      },
+      {
+        "id": "B07",
+        "nom": "Automatisation & Robotique",
+        "poids": 1.0,
+        "competences": [
+          "programmer des automates industriels PLC Siemens Allen-Bradley",
+          "intégrer des robots industriels et collaboratifs cobots",
+          "concevoir des systèmes de contrôle-commande",
+          "mettre en place des solutions IoT industriel IIoT",
+          "développer des interfaces homme-machine HMI",
+          "réaliser des essais et la mise en service d'équipements automatisés",
+          "diagnostiquer les pannes sur des systèmes automatisés",
+          "documenter les configurations et les programmes"
+        ]
+      },
+      {
+        "id": "B08",
+        "nom": "Gestion de Projet Industriel",
+        "poids": 1.0,
+        "competences": [
+          "piloter des projets d'investissement industriel",
+          "gérer un planning de projet avec MS Project ou Primavera",
+          "coordonner les équipes pluridisciplinaires méthodes production qualité",
+          "gérer les budgets et les coûts d'un projet",
+          "conduire les revues d'avancement et gérer les risques",
+          "gérer les interfaces avec les fournisseurs et sous-traitants",
+          "mener la qualification et la validation des équipements",
+          "assurer la transition vers la production série"
+        ]
+      },
+      {
+        "id": "B09",
+        "nom": "R&D & Innovation",
+        "poids": 1.0,
+        "competences": [
+          "conduire des projets de recherche et de développement produit",
+          "réaliser une veille technologique et un benchmark",
+          "prototyper et tester de nouveaux concepts",
+          "rédiger des rapports d'essais et des dossiers techniques",
+          "gérer la propriété industrielle brevets et marques",
+          "collaborer avec des laboratoires et des universités",
+          "animer une démarche d'innovation participative",
+          "valoriser les innovations par des publications ou des brevets"
+        ]
+      },
+      {
+        "id": "B10",
+        "nom": "Normes & Réglementation",
+        "poids": 0.9,
+        "competences": [
+          "maîtriser les normes sectorielles automotive IATF aéronautique AS9100",
+          "appliquer les directives européennes machines et équipements sous pression",
+          "gérer les dossiers de certification CE",
+          "comprendre et appliquer les réglementations REACH ROHS",
+          "rédiger des procédures conformes aux exigences réglementaires",
+          "préparer et gérer des audits de certification",
+          "assurer une veille réglementaire sectorielle",
+          "former les équipes aux exigences normatives"
+        ]
+      }
+    ]
+  },
+  "SANTE": {
+    "blocs": [
+      {
+        "id": "B01",
+        "nom": "Clinique & Soins",
+        "poids": 1.4,
+        "competences": [
+          "réaliser des actes de soins infirmiers techniques et relationnels",
+          "évaluer l'état clinique d'un patient et identifier les urgences",
+          "administrer des traitements médicamenteux en toute sécurité",
+          "réaliser des pansements complexes et des soins techniques",
+          "prévenir les infections nosocomiales et appliquer les précautions standard",
+          "éduquer les patients et leurs proches à la gestion de la maladie",
+          "rédiger des transmissions et des documents de soins",
+          "travailler en équipe pluridisciplinaire médicale et paramédicale"
+        ]
+      },
+      {
+        "id": "B02",
+        "nom": "Recherche Clinique",
+        "poids": 1.2,
+        "competences": [
+          "coordonner des essais cliniques phases I à IV",
+          "rédiger et gérer des cahiers de rapport d'observation CRF",
+          "assurer la qualité et l'intégrité des données d'essais",
+          "former les équipes investigatrices aux protocoles",
+          "gérer les déclarations d'événements indésirables graves EIG",
+          "préparer et accompagner les inspections des autorités",
+          "analyser les données statistiques d'une étude",
+          "rédiger des rapports finaux d'étude CSR"
+        ]
+      },
+      {
+        "id": "B03",
+        "nom": "Réglementation & Pharmacovigilance",
+        "poids": 1.2,
+        "competences": [
+          "gérer les déclarations de pharmacovigilance PSUR DSUR",
+          "préparer des dossiers d'enregistrement pour l'EMA ou l'ANSM",
+          "appliquer les bonnes pratiques cliniques GCP ICH E6",
+          "gérer les variations et le maintien des autorisations de mise sur le marché",
+          "rédiger et mettre à jour les notices et résumés des caractéristiques produit",
+          "assurer la veille réglementaire internationale",
+          "former les équipes aux exigences réglementaires",
+          "gérer les interactions avec les autorités de santé"
+        ]
+      },
+      {
+        "id": "B04",
+        "nom": "Biologie & Laboratoire",
+        "poids": 1.1,
+        "competences": [
+          "réaliser des analyses biologiques et biochimiques",
+          "maîtriser les techniques de microbiologie et d'immunologie",
+          "utiliser des équipements de laboratoire automates spectromètres",
+          "appliquer les normes de qualité en laboratoire ISO 15189",
+          "gérer les stocks de réactifs et la métrologie des équipements",
+          "interpréter des résultats d'analyses biologiques",
+          "rédiger des comptes rendus d'analyses",
+          "appliquer les règles de biosécurité"
+        ]
+      },
+      {
+        "id": "B05",
+        "nom": "Santé Publique & Épidémiologie",
+        "poids": 1.0,
+        "competences": [
+          "conduire des études épidémiologiques descriptives et analytiques",
+          "analyser des données de santé avec R ou SAS",
+          "réaliser des revues systématiques et des méta-analyses",
+          "évaluer des programmes de santé publique",
+          "rédiger des rapports pour les autorités sanitaires",
+          "gérer des alertes sanitaires et des épidémies",
+          "animer des campagnes de prévention et de promotion de la santé",
+          "communiquer des données de santé au grand public"
+        ]
+      },
+      {
+        "id": "B06",
+        "nom": "Dispositifs Médicaux",
+        "poids": 1.1,
+        "competences": [
+          "rédiger des dossiers techniques pour le marquage CE selon le MDR",
+          "réaliser des évaluations cliniques et des PMS",
+          "gérer le système de management de la qualité ISO 13485",
+          "assurer la matériovigilance et les signalements",
+          "gérer les processus de validation et de vérification",
+          "conduire des analyses de risques selon l'ISO 14971",
+          "former les utilisateurs aux dispositifs médicaux",
+          "gérer les FSCA et les recalls"
+        ]
+      },
+      {
+        "id": "B07",
+        "nom": "Bioinformatique & Données",
+        "poids": 0.9,
+        "competences": [
+          "analyser des données génomiques NGS RNA-seq",
+          "utiliser des outils bioinformatiques Galaxy Bioconductor",
+          "programmer en Python ou R pour l'analyse de données biologiques",
+          "gérer des bases de données biologiques NCBI UniProt",
+          "réaliser des analyses statistiques sur des données omiques",
+          "visualiser des données biologiques complexes",
+          "rédiger des pipelines d'analyse bioinformatique",
+          "publier et documenter des analyses reproductibles"
+        ]
+      },
+      {
+        "id": "B08",
+        "nom": "Qualité GxP",
+        "poids": 1.1,
+        "competences": [
+          "rédiger et contrôler des procédures selon les BPF BPC BPD",
+          "préparer et accompagner des inspections réglementaires",
+          "gérer les déviations et les CAPA",
+          "mettre en place un système de gestion documentaire qualité",
+          "réaliser des qualifications et des validations QI QO QP",
+          "auditer des fournisseurs et des sous-traitants",
+          "former les équipes aux bonnes pratiques",
+          "gérer les données d'intégrité selon les principes ALCOA+"
+        ]
+      },
+      {
+        "id": "B09",
+        "nom": "Communication Médicale",
+        "poids": 0.8,
+        "competences": [
+          "rédiger des articles scientifiques et des posters pour congrès",
+          "préparer des formations médicales continues DPC",
+          "créer des supports de communication pour les professionnels de santé",
+          "présenter des données cliniques lors de congrès",
+          "rédiger des dossiers de remboursement pour la HAS",
+          "adapter les contenus pour les patients et le grand public",
+          "gérer des relations avec les KOL Key Opinion Leaders",
+          "publier dans des revues à comité de lecture"
+        ]
+      },
+      {
+        "id": "B10",
+        "nom": "Gestion de Projet Santé",
+        "poids": 0.9,
+        "competences": [
+          "piloter des projets de transformation dans les établissements de santé",
+          "gérer des projets de certification HAS",
+          "coordonner des équipes pluridisciplinaires médicales et administratives",
+          "gérer des budgets et des appels d'offres publics",
+          "conduire des projets informatiques systèmes d'information hospitalier SIH",
+          "mettre en place des indicateurs de qualité et de performance",
+          "accompagner le changement dans des environnements réglementés",
+          "rédiger des projets d'établissement et des projets de soins"
+        ]
+      }
+    ]
+  },
+  "COMMUNICATION_MEDIAS": {
+    "blocs": [
+      {
+        "id": "B01",
+        "nom": "Rédaction & Éditorial",
+        "poids": 1.3,
+        "competences": [
+          "rédiger des articles de presse et des contenus journalistiques",
+          "écrire pour le web avec les techniques SEO",
+          "adapter son style éditorial au public et au support",
+          "réaliser des interviews et rédiger des portraits",
+          "vérifier les sources et les informations fact-checking",
+          "rédiger des dossiers de presse et des communiqués",
+          "travailler en flux tendu avec des contraintes de délais",
+          "maîtriser les règles typographiques et orthographiques"
+        ]
+      },
+      {
+        "id": "B02",
+        "nom": "Relations Presse & RP",
+        "poids": 1.2,
+        "competences": [
+          "construire et entretenir un réseau de journalistes",
+          "rédiger et diffuser des communiqués de presse",
+          "organiser des conférences de presse et des briefings médias",
+          "gérer les demandes d'interviews et les relations médias",
+          "développer des stratégies de relations publiques",
+          "gérer la réputation et l'image de marque",
+          "répondre aux sollicitations médiatiques en situation de crise",
+          "mesurer les retombées presse et calculer l'équivalent publicitaire"
+        ]
+      },
+      {
+        "id": "B03",
+        "nom": "Audiovisuel & Multimédia",
+        "poids": 1.2,
+        "competences": [
+          "réaliser et monter des vidéos avec Premiere Pro ou Final Cut",
+          "cadrer et diriger des prises de vue photo et vidéo",
+          "enregistrer et monter des podcasts et des reportages sonores",
+          "créer des animations et des motion designs",
+          "maîtriser les techniques d'éclairage et de son",
+          "publier et optimiser des contenus vidéo sur YouTube",
+          "diffuser en direct streaming et gérer des plateformes vidéo",
+          "produire des contenus adaptés aux formats courts réseaux sociaux"
+        ]
+      },
+      {
+        "id": "B04",
+        "nom": "Communication Digitale",
+        "poids": 1.3,
+        "competences": [
+          "développer une stratégie de communication digitale multicanale",
+          "gérer et animer des comptes sur les réseaux sociaux",
+          "créer des campagnes publicitaires digitales",
+          "produire des newsletters et des campagnes d'emailing",
+          "analyser les statistiques et les performances des contenus",
+          "mettre en place des stratégies d'inbound marketing",
+          "gérer un site web et un blog avec WordPress ou CMS",
+          "optimiser les conversions et mesurer l'impact des actions"
+        ]
+      },
+      {
+        "id": "B05",
+        "nom": "Événementiel",
+        "poids": 1.0,
+        "competences": [
+          "concevoir et organiser des événements professionnels",
+          "gérer les prestataires traiteurs décorateurs audiovisuel",
+          "coordonner la logistique d'un événement de A à Z",
+          "gérer le budget et les imprévus",
+          "communiquer autour de l'événement avant pendant et après",
+          "animer des tables rondes et des conférences",
+          "évaluer la satisfaction des participants",
+          "gérer des événements en format hybride présentiel et distanciel"
+        ]
+      },
+      {
+        "id": "B06",
+        "nom": "Communication Interne",
+        "poids": 0.9,
+        "competences": [
+          "concevoir et déployer des plans de communication interne",
+          "animer l'intranet et les outils de communication collaboratifs",
+          "produire des supports pour les dirigeants discours présentations",
+          "organiser des événements internes séminaires teambuilding",
+          "accompagner la communication lors de changements organisationnels",
+          "mesurer l'engagement et la satisfaction des collaborateurs",
+          "gérer les crises de communication interne",
+          "adapter les messages aux différentes populations de l'entreprise"
+        ]
+      },
+      {
+        "id": "B07",
+        "nom": "Identité de Marque & Graphisme",
+        "poids": 1.0,
+        "competences": [
+          "concevoir et décliner une identité visuelle cohérente",
+          "maîtriser la suite Adobe Photoshop Illustrator InDesign",
+          "créer des maquettes et des templates graphiques",
+          "réaliser des infographies et des data visualisations",
+          "travailler avec Figma pour le design d'interfaces",
+          "respecter et faire respecter une charte graphique",
+          "collaborer avec des imprimeurs et des prestataires",
+          "adapter les visuels aux formats print et digital"
+        ]
+      },
+      {
+        "id": "B08",
+        "nom": "Community Management",
+        "poids": 1.0,
+        "competences": [
+          "animer et développer des communautés en ligne",
+          "créer du contenu engageant et interactif",
+          "modérer les discussions et les commentaires",
+          "répondre aux questions et aux messages des membres",
+          "organiser des jeux concours et des animations",
+          "analyser les statistiques de la communauté",
+          "identifier et engager les ambassadeurs et les influenceurs",
+          "gérer les situations de crise et les bad buzz"
+        ]
+      },
+      {
+        "id": "B09",
+        "nom": "Communication de Crise",
+        "poids": 1.1,
+        "competences": [
+          "élaborer des plans de gestion de crise et de communication",
+          "identifier les risques et les scénarios de crise",
+          "former les porte-paroles à la prise de parole en situation de crise",
+          "gérer la communication avec les médias lors d'une crise",
+          "surveiller les réseaux sociaux et les médias en temps réel",
+          "rédiger des éléments de langage et des Q&R",
+          "coordonner les parties prenantes internes et externes",
+          "faire un retour d'expérience post-crise"
+        ]
+      },
+      {
+        "id": "B10",
+        "nom": "Analyse & Reporting",
+        "poids": 0.8,
+        "competences": [
+          "mesurer les retombées médiatiques et calculer les KPI",
+          "créer des tableaux de bord de suivi de la communication",
+          "analyser l'audience et les comportements sur les médias digitaux",
+          "produire des rapports d'activité et des bilans de campagne",
+          "utiliser des outils de veille médiatique Meltwater Talkwalker",
+          "comparer les performances aux benchmarks du secteur",
+          "formuler des recommandations stratégiques basées sur les données",
+          "présenter les résultats aux direction et aux clients"
+        ]
+      }
+    ]
+  },
+  "MANAGEMENT_RH": {
+    "blocs": [
+      {
+        "id": "B01",
+        "nom": "Management d'Équipe",
+        "poids": 1.4,
+        "competences": [
+          "animer et motiver une équipe vers l'atteinte d'objectifs",
+          "conduire des entretiens individuels annuels et de mi-année",
+          "gérer les conflits et favoriser la cohésion d'équipe",
+          "déléguer efficacement et responsabiliser les collaborateurs",
+          "piloter les performances avec des indicateurs clés",
+          "donner du feedback constructif et régulier",
+          "adapter son style de management au profil des collaborateurs",
+          "accompagner les collaborateurs en difficulté"
+        ]
+      },
+      {
+        "id": "B02",
+        "nom": "Recrutement & Talent",
+        "poids": 1.3,
+        "competences": [
+          "rédiger des offres d'emploi attractives et inclusives",
+          "sourcer des candidats via LinkedIn et les job boards",
+          "mener des entretiens de recrutement structurés",
+          "évaluer les compétences avec des tests et des mises en situation",
+          "piloter le processus d'onboarding des nouveaux collaborateurs",
+          "développer la marque employeur",
+          "gérer les relations avec les cabinets de recrutement",
+          "piloter les indicateurs de recrutement TTH coût qualité"
+        ]
+      },
+      {
+        "id": "B03",
+        "nom": "Formation & Développement RH",
+        "poids": 1.2,
+        "competences": [
+          "réaliser des analyses des besoins en compétences",
+          "concevoir des dispositifs de formation en présentiel et distanciel",
+          "animer des formations et des ateliers",
+          "évaluer l'efficacité des formations et calculer le ROI",
+          "gérer un plan de développement des compétences",
+          "utiliser un LMS pour la formation en ligne",
+          "piloter les entretiens professionnels et les revues de talent",
+          "développer les mobilités internes"
+        ]
+      },
+      {
+        "id": "B04",
+        "nom": "Administration du Personnel",
+        "poids": 1.1,
+        "competences": [
+          "gérer les contrats de travail et les avenants",
+          "établir les bulletins de paie et les déclarations sociales",
+          "gérer les absences congés maladies et accidents du travail",
+          "administrer les avantages sociaux mutuelle prévoyance épargne",
+          "suivre les tableaux de bord RH effectifs masse salariale",
+          "gérer les procédures de rupture de contrat",
+          "produire les reportings légaux BDES, NAO",
+          "gérer les relations avec les organismes sociaux URSSAF CPAM"
+        ]
+      },
+      {
+        "id": "B05",
+        "nom": "Droit du Travail",
+        "poids": 1.0,
+        "competences": [
+          "maîtriser le code du travail et les conventions collectives",
+          "gérer les procédures disciplinaires et les licenciements",
+          "conseiller les managers sur les situations à risque juridique",
+          "gérer les cas de harcèlement et de discrimination",
+          "rédiger des règlements intérieurs et des chartes",
+          "gérer les contentieux prud'homaux",
+          "assurer une veille juridique sociale",
+          "participer à la négociation d'accords collectifs"
+        ]
+      },
+      {
+        "id": "B06",
+        "nom": "Relations Sociales",
+        "poids": 1.1,
+        "competences": [
+          "préparer et animer les réunions CSE et commissions",
+          "négocier des accords collectifs NAO intéressement QVCT",
+          "gérer les relations avec les délégués syndicaux",
+          "produire les documents obligatoires base de données économiques et sociales",
+          "gérer les élections professionnelles",
+          "prévenir et gérer les conflits collectifs",
+          "informer et consulter les IRP sur les projets de l'entreprise",
+          "assurer un dialogue social de qualité"
+        ]
+      },
+      {
+        "id": "B07",
+        "nom": "Gestion de Projet RH",
+        "poids": 1.0,
+        "competences": [
+          "piloter des projets de transformation RH",
+          "déployer des projets de GPEC et de gestion des compétences",
+          "conduire des projets d'implémentation d'un SIRH",
+          "gérer les projets de fusion-acquisition volet RH",
+          "produire des plans de communication RH",
+          "animer des ateliers de co-construction avec les managers",
+          "gérer les budgets et les plannings des projets RH",
+          "piloter les projets de diversité et d'inclusion"
+        ]
+      },
+      {
+        "id": "B08",
+        "nom": "SIRH & Outils RH",
+        "poids": 0.9,
+        "competences": [
+          "administrer et paramétrer un SIRH SAP SuccessFactors Workday",
+          "extraire et analyser des données RH pour le reporting",
+          "gérer les droits d'accès et la confidentialité des données salariés",
+          "accompagner les utilisateurs dans l'utilisation du SIRH",
+          "piloter des projets de déploiement ou de migration SIRH",
+          "produire des tableaux de bord RH automatisés",
+          "intégrer le SIRH avec d'autres systèmes paie ERP",
+          "assurer la conformité RGPD des données RH"
+        ]
+      },
+      {
+        "id": "B09",
+        "nom": "Communication & Influence",
+        "poids": 0.9,
+        "competences": [
+          "communiquer avec impact auprès des dirigeants et des managers",
+          "animer des réunions et des ateliers participatifs",
+          "créer des supports de présentation clairs et percutants",
+          "rédiger des notes et des synthèses RH",
+          "adapter son message à différents interlocuteurs",
+          "développer son réseau RH interne et externe",
+          "développer son personal branding de leader RH",
+          "communiquer en anglais dans un contexte international"
+        ]
+      },
+      {
+        "id": "B10",
+        "nom": "Gestion du Changement",
+        "poids": 1.1,
+        "competences": [
+          "analyser les impacts humains d'une transformation organisationnelle",
+          "élaborer et déployer un plan de conduite du changement",
+          "identifier et gérer les résistances au changement",
+          "former et accompagner les managers dans leur rôle d'agent du changement",
+          "communiquer de façon transparente et régulière lors des transformations",
+          "mesurer l'adoption du changement et ajuster le dispositif",
+          "utiliser des méthodes de coaching et d'accompagnement",
+          "construire une culture organisationnelle résiliente"
+        ]
+      }
+    ]
+  }
+}

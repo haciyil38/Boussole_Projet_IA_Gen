@@ -1,0 +1,258 @@
+{
+  "metiers": [
+    {
+      "id": "M01",
+      "titre": "Data Scientist",
+      "description": "Analyse des données complexes, construit des modèles prédictifs et génère des insights stratégiques pour la prise de décision.",
+      "blocs_requis": {
+        "B01": 0.8,
+        "B02": 0.9,
+        "B03": 0.9,
+        "B04": 1.0,
+        "B05": 0.7,
+        "B06": 0.6,
+        "B09": 0.7,
+        "B10": 0.6
+      },
+      "competences_cles": ["Machine Learning", "Statistiques", "Python", "Visualisation"],
+      "salaire_median": "55 000 – 80 000 €/an",
+      "secteurs": ["Finance", "Santé", "E-commerce", "Conseil"]
+    },
+    {
+      "id": "M02",
+      "titre": "ML Engineer",
+      "description": "Conçoit, développe et déploie des modèles de machine learning en production dans des systèmes robustes et scalables.",
+      "blocs_requis": {
+        "B01": 1.0,
+        "B02": 0.8,
+        "B03": 0.9,
+        "B04": 1.0,
+        "B05": 0.8,
+        "B08": 0.8,
+        "B12": 0.9,
+        "B10": 0.6
+      },
+      "competences_cles": ["Python", "MLOps", "Cloud", "Deep Learning"],
+      "salaire_median": "55 000 – 85 000 €/an",
+      "secteurs": ["Tech", "Startups", "Industrie", "Automobile"]
+    },
+    {
+      "id": "M03",
+      "titre": "NLP Engineer",
+      "description": "Spécialiste du traitement du langage naturel, développe des systèmes de compréhension et génération de texte.",
+      "blocs_requis": {
+        "B01": 0.9,
+        "B02": 0.7,
+        "B03": 0.8,
+        "B04": 0.7,
+        "B05": 0.8,
+        "B06": 1.0,
+        "B07": 0.9,
+        "B10": 0.5
+      },
+      "competences_cles": ["NLP", "BERT", "LLM", "Python"],
+      "salaire_median": "58 000 – 90 000 €/an",
+      "secteurs": ["IA", "Médias", "Juridique", "RH"]
+    },
+    {
+      "id": "M04",
+      "titre": "Ingénieur IA Générative",
+      "description": "Développe des applications basées sur des LLM, des pipelines RAG et des agents IA pour automatiser la production de contenu.",
+      "blocs_requis": {
+        "B01": 0.9,
+        "B05": 0.7,
+        "B06": 0.9,
+        "B07": 1.0,
+        "B08": 0.7,
+        "B11": 0.8,
+        "B12": 0.7,
+        "B10": 0.6
+      },
+      "competences_cles": ["LLM", "RAG", "Prompt Engineering", "API GenAI"],
+      "salaire_median": "60 000 – 95 000 €/an",
+      "secteurs": ["IA", "SaaS", "Conseil", "EdTech"]
+    },
+    {
+      "id": "M05",
+      "titre": "Data Engineer",
+      "description": "Conçoit et maintient des pipelines de données fiables et scalables pour alimenter les équipes analytiques et ML.",
+      "blocs_requis": {
+        "B01": 1.0,
+        "B02": 0.5,
+        "B03": 1.0,
+        "B08": 1.0,
+        "B12": 0.9,
+        "B10": 0.6,
+        "B11": 0.5
+      },
+      "competences_cles": ["SQL", "Spark", "Cloud", "ETL"],
+      "salaire_median": "50 000 – 80 000 €/an",
+      "secteurs": ["Finance", "Retail", "Télécoms", "Industrie"]
+    },
+    {
+      "id": "M06",
+      "titre": "Data Analyst",
+      "description": "Analyse les données d'entreprise, crée des tableaux de bord et produit des rapports pour orienter la stratégie business.",
+      "blocs_requis": {
+        "B01": 0.6,
+        "B02": 0.8,
+        "B03": 0.9,
+        "B04": 0.5,
+        "B09": 1.0,
+        "B10": 0.7,
+        "B11": 0.5
+      },
+      "competences_cles": ["SQL", "Excel", "Power BI", "Statistiques"],
+      "salaire_median": "38 000 – 58 000 €/an",
+      "secteurs": ["Marketing", "Finance", "RH", "Commerce"]
+    },
+    {
+      "id": "M07",
+      "titre": "Research Scientist IA",
+      "description": "Mène des travaux de recherche pour développer de nouveaux algorithmes et avancer l'état de l'art en intelligence artificielle.",
+      "blocs_requis": {
+        "B01": 0.9,
+        "B02": 1.0,
+        "B04": 0.9,
+        "B05": 1.0,
+        "B06": 0.8,
+        "B07": 0.8,
+        "B10": 0.7,
+        "B11": 0.7
+      },
+      "competences_cles": ["Deep Learning", "Mathématiques", "Recherche", "Publications"],
+      "salaire_median": "65 000 – 110 000 €/an",
+      "secteurs": ["Recherche", "GAFAM", "Laboratoires", "Défense"]
+    },
+    {
+      "id": "M08",
+      "titre": "AI Product Manager",
+      "description": "Pilote le développement de produits IA en faisant le lien entre les équipes techniques et les besoins métiers.",
+      "blocs_requis": {
+        "B01": 0.4,
+        "B04": 0.5,
+        "B07": 0.6,
+        "B09": 0.7,
+        "B10": 1.0,
+        "B11": 0.8
+      },
+      "competences_cles": ["Gestion de projet", "Product Management", "IA", "Communication"],
+      "salaire_median": "55 000 – 90 000 €/an",
+      "secteurs": ["SaaS", "FinTech", "HealthTech", "E-commerce"]
+    },
+    {
+      "id": "M09",
+      "titre": "DevOps / MLOps Engineer",
+      "description": "Met en place les infrastructures et pipelines CI/CD pour le déploiement et le monitoring de modèles ML en production.",
+      "blocs_requis": {
+        "B01": 1.0,
+        "B03": 0.7,
+        "B04": 0.5,
+        "B08": 0.9,
+        "B12": 1.0,
+        "B10": 0.6,
+        "B11": 0.5
+      },
+      "competences_cles": ["Docker", "Kubernetes", "Cloud", "CI/CD"],
+      "salaire_median": "50 000 – 85 000 €/an",
+      "secteurs": ["Tech", "Finance", "Télécoms", "Industrie"]
+    },
+    {
+      "id": "M10",
+      "titre": "Consultant IA & Data",
+      "description": "Accompagne les entreprises dans leur transformation data et IA, de la stratégie à l'implémentation de solutions.",
+      "blocs_requis": {
+        "B01": 0.6,
+        "B02": 0.6,
+        "B03": 0.7,
+        "B04": 0.7,
+        "B07": 0.6,
+        "B09": 0.8,
+        "B10": 1.0,
+        "B11": 0.8
+      },
+      "competences_cles": ["Conseil", "Communication", "IA", "Stratégie"],
+      "salaire_median": "45 000 – 75 000 €/an",
+      "secteurs": ["Conseil", "Finance", "Industrie", "Public"]
+    },
+    {
+      "id": "M11",
+      "titre": "Ingénieur Vision par Ordinateur",
+      "description": "Développe des systèmes de traitement et d'analyse d'images et de vidéos pour des applications industrielles ou médicales.",
+      "blocs_requis": {
+        "B01": 0.9,
+        "B02": 0.8,
+        "B03": 0.8,
+        "B04": 0.8,
+        "B05": 1.0,
+        "B08": 0.6,
+        "B12": 0.7
+      },
+      "competences_cles": ["CNN", "OpenCV", "PyTorch", "Deep Learning"],
+      "salaire_median": "55 000 – 88 000 €/an",
+      "secteurs": ["Médical", "Automobile", "Industrie", "Sécurité"]
+    },
+    {
+      "id": "M12",
+      "titre": "BI Developer",
+      "description": "Développe des solutions de Business Intelligence pour transformer les données brutes en tableaux de bord décisionnels.",
+      "blocs_requis": {
+        "B01": 0.5,
+        "B02": 0.6,
+        "B03": 0.9,
+        "B08": 0.8,
+        "B09": 1.0,
+        "B10": 0.7
+      },
+      "competences_cles": ["SQL", "Power BI", "ETL", "Modélisation"],
+      "salaire_median": "40 000 – 62 000 €/an",
+      "secteurs": ["Finance", "Retail", "Industrie", "Logistique"]
+    },
+    {
+      "id": "M13",
+      "titre": "Responsable Données & RGPD",
+      "description": "Assure la conformité des traitements de données personnelles et pilote la gouvernance des données de l'organisation.",
+      "blocs_requis": {
+        "B03": 0.7,
+        "B08": 0.6,
+        "B10": 0.8,
+        "B11": 1.0
+      },
+      "competences_cles": ["RGPD", "Gouvernance", "Droit", "Données"],
+      "salaire_median": "45 000 – 72 000 €/an",
+      "secteurs": ["Juridique", "Finance", "Santé", "Public"]
+    },
+    {
+      "id": "M14",
+      "titre": "Ingénieur Systèmes de Recommandation",
+      "description": "Conçoit des moteurs de recommandation personnalisés basés sur le filtrage collaboratif ou le contenu.",
+      "blocs_requis": {
+        "B01": 0.9,
+        "B02": 0.8,
+        "B03": 0.9,
+        "B04": 0.9,
+        "B06": 0.7,
+        "B08": 0.7,
+        "B09": 0.6
+      },
+      "competences_cles": ["Recommandation", "Filtrage collaboratif", "Python", "SQL"],
+      "salaire_median": "55 000 – 85 000 €/an",
+      "secteurs": ["E-commerce", "Streaming", "Publicité", "FinTech"]
+    },
+    {
+      "id": "M15",
+      "titre": "Analyste Junior / Alternant Data",
+      "description": "Première expérience dans le domaine data, assiste les équipes dans l'analyse et la visualisation des données.",
+      "blocs_requis": {
+        "B01": 0.4,
+        "B02": 0.4,
+        "B03": 0.5,
+        "B09": 0.6,
+        "B10": 0.5
+      },
+      "competences_cles": ["Excel", "SQL basique", "Python débutant", "Curiosité"],
+      "salaire_median": "25 000 – 38 000 €/an",
+      "secteurs": ["Tous secteurs"]
+    }
+  ]
+}
