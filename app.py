@@ -16,7 +16,7 @@ from modules.recommender import get_top_n_recommendations, get_job_gap_analysis
 from modules.genai_client import generate_progression_plan, generate_bio, get_cache_stats
 
 # Config
-st.set_page_config(page_title="Boussole - oriente vers les métiers, simple et parlant", page_icon="🧭", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Boussole - Oriente vers les métiers sans perdre le nord", page_icon="🧭", layout="wide", initial_sidebar_state="expanded")
 DATA_DIR = Path(__file__).parent / "data"
 
 @st.cache_data
@@ -92,7 +92,7 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 
 # Sidebar
 
-# ── Profils de démonstration ──────────────────────────────────────────
+# Profils de démonstration
 DEMO_PROFILES = {
     "🎓 Data Analyst — Étudiant": {
         "user_profile": {
@@ -172,44 +172,42 @@ DEMO_PROFILES = {
             "B09": 0.80, "B10": 0.60,
         },
     },
-    "🔬 NLP Engineer — Senior": {
+    "💊 Ingénieur Biomédical — Senior": {
         "user_profile": {
-            "prenom": "Karim",
-            "formation": "Doctorat en Traitement Automatique des Langues — Sorbonne",
+            "prenom": "Claire",
+            "formation": "Doctorat en Biologie Computationnelle — Université Paris-Saclay",
             "experience": "Senior (5+ ans)",
-            "domaine_id": "DATA_IA",
-            "domaine_nom": "Data & Intelligence Artificielle",
-            "domaine_icone": "🤖",
+            "domaine_id": "SANTE",
+            "domaine_nom": "Santé & Sciences du Vivant",
+            "domaine_icone": "🏥",
         },
-        "domaine_id": "DATA_IA",
+        "domaine_id": "SANTE",
         "user_responses": [
-            "J'ai développé des bibliothèques Python open-source, conçu des API REST avec FastAPI et utilisé Docker et Kubernetes pour le déploiement en production.",
-            "J'ai publié des articles sur les transformers et les architectures BERT, entraîné des modèles sur GPU avec PyTorch et TensorFlow.",
-            "Je maîtrise BERT, SBERT, GPT et les pipelines RAG avec LangChain. J'ai déployé des chatbots RAG en production avec Gemini et Claude.",
-            "Je conçois des architectures vectorielles avec Pinecone et Chroma, j'orchestre des workflows avec Airflow sur GCP et AWS.",
-            "Je crée des visualisations sémantiques avancées et présente mes travaux lors de conférences ACL, EMNLP et NeurIPS.",
-            "Je pilote une équipe de 4 ingénieurs NLP en méthode Agile, je rédige des ADR et spécifications techniques.",
-            "Langages et frameworks : Python, Scala, SQL, FastAPI, Spark",
-            "Outils ML/DL : PyTorch, TensorFlow, Hugging Face, scikit-learn, XGBoost, spaCy",
-            "LLMs / APIs GenAI : OpenAI GPT, Google Gemini, Anthropic Claude, LangChain, LlamaIndex, SBERT",
-            "Data Engineering / Cloud : PostgreSQL, MongoDB, Kafka, Airflow, AWS, GCP, Docker, Kubernetes",
-            "Python / Programmation : niveau 5 sur 5",
-            "Mathématiques / Statistiques : niveau 5 sur 5",
-            "Traitement des données : niveau 5 sur 5",
-            "Machine Learning : niveau 5 sur 5",
-            "Deep Learning : niveau 5 sur 5",
-            "NLP / Traitement texte : niveau 5 sur 5",
-            "IA Générative / LLM : niveau 5 sur 5",
-            "Data Engineering : niveau 4 sur 5",
-            "Visualisation : niveau 4 sur 5",
-            "Gestion de projet : niveau 4 sur 5",
-            "Éthique IA / RGPD : niveau 4 sur 5",
-            "Cloud / DevOps : niveau 4 sur 5",
+            "Je conduis des études cliniques randomisées et analyse des données de cohortes avec R et Python, je maîtrise les méthodes statistiques biomédicales.",
+            "J'ai développé des algorithmes de détection de tumeurs sur des images IRM avec des CNN PyTorch, atteint 94% de sensibilité sur un dataset de 50 000 images.",
+            "Je gère des bases de données patients conformes RGPD et HDS, j'applique des techniques de pseudonymisation et de differential privacy.",
+            "Je collabore avec des équipes médicales pour traduire les besoins cliniques en solutions IA, j'ai obtenu le marquage CE pour deux dispositifs médicaux.",
+            "Je publie dans des revues à comité de lecture (Nature Digital Medicine, The Lancet Digital Health) et présente aux conférences MICCAI et RSNA.",
+            "Je pilote des projets en méthode Agile avec des équipes pluridisciplinaires (médecins, ingénieurs, régulateurs), budget 2M€.",
+            "Domaines cliniques : oncologie, cardiologie, neurologie, imagerie médicale",
+            "Technologies : Python, R, PyTorch, TensorFlow, MONAI, 3D Slicer, FHIR, HL7",
+            "Réglementaire : MDR, FDA 510k, ISO 13485, IEC 62304, HDS",
+            "Statistiques : R, SAS, survie, modèles mixtes, meta-analyses",
+            "Biologie & Physiologie : niveau 5 sur 5",
+            "Statistiques biomédicales : niveau 5 sur 5",
+            "IA médicale & imagerie : niveau 5 sur 5",
+            "Réglementation médicale : niveau 5 sur 5",
+            "Gestion de projet clinique : niveau 4 sur 5",
+            "Bioinformatique : niveau 4 sur 5",
+            "Pharmacologie : niveau 3 sur 5",
+            "Dispositifs médicaux : niveau 5 sur 5",
+            "Communication scientifique : niveau 4 sur 5",
+            "Éthique & RGPD santé : niveau 5 sur 5",
         ],
         "likert_scores": {
             "B01": 1.00, "B02": 1.00, "B03": 1.00, "B04": 1.00,
-            "B05": 1.00, "B06": 1.00, "B07": 1.00, "B08": 0.80,
-            "B09": 0.80, "B10": 0.80, "B11": 0.80, "B12": 0.80,
+            "B05": 0.80, "B06": 0.60, "B07": 0.60, "B08": 0.80,
+            "B09": 0.80, "B10": 1.00, "B11": 1.00, "B12": 0.60,
         },
     },
 }
@@ -241,8 +239,7 @@ def load_demo_profile(profile_key: str, domaines: dict, competences_par_domaine:
 
 def render_sidebar():
     with st.sidebar:
-        st.markdown("## 🧭 Boussole")
-        st.markdown("**Oriente vers les métiers, simple et parlant**")
+        st.markdown("## 🧭 Boussole.")
         st.markdown("---")
         st.markdown("### Démos instantanées")
         st.caption("Un clic = profil pré-rempli + analyse lancée")
@@ -275,8 +272,8 @@ def render_sidebar():
 def page_questionnaire(domaines, competences_par_domaine):
     st.markdown("""
     <div class="main-header">
-        <h1>🧭 Boussole</h1>
-        <h3>Oriente vers les métiers, simple et parlant</h3>
+        <h1>Trouvez votre voie.</h1>
+        <h2>Orientez-vous vers les métiers de demain, sans perdre le nord</h2>
         <p>Choisissez votre domaine — les questions s'adaptent automatiquement</p>
     </div>
     """, unsafe_allow_html=True)
