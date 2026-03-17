@@ -40,8 +40,6 @@ Boussole/
 ```
 Questionnaire (Streamlit)
     ↓ texte libre + Likert + QCM
-Pré-processing (agrégation, enrichissement conditionnel GenAI si < 5 mots)
-    ↓
 SBERT paraphrase-multilingual-MiniLM-L12-v2 → Embeddings
     ↓
 Similarité cosinus vs référentiel de compétences (96 phrases)
