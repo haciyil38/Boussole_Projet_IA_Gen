@@ -6,7 +6,7 @@ EFREI Paris · Mastère Data Engineering & IA · 2025-2026
 
 ---
 
-## 🎯 Description
+## Description
 
 Boussole est un moteur de recommandation sémantique qui :
 1. Collecte les compétences d'un utilisateur via un questionnaire hybride
@@ -17,7 +17,7 @@ Boussole est un moteur de recommandation sémantique qui :
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Boussole/
@@ -35,7 +35,7 @@ Boussole/
 └── .env.example
 ```
 
-## 🔬 Pipeline IA
+## Pipeline IA
 
 ```
 Questionnaire (Streamlit)
@@ -55,7 +55,7 @@ RAG Gemini (contexte enrichi → 1 appel plan + 1 appel bio)
 Visualisations (radar + barres + jauges) + tableau de bord
 ```
 
-## 🚀 Installation et lancement
+## Installation et lancement
 
 ```bash
 # 1. Cloner le dépôt
@@ -76,14 +76,14 @@ cp .env.example .env
 streamlit run app.py
 ```
 
-## 🔑 Obtenir une clé API Gemini (gratuit)
+## Obtenir une clé API Gemini (gratuit)
 
 1. Aller sur https://aistudio.google.com
 2. Se connecter avec un compte Google
 3. Cliquer sur "Get API key"
 4. Copier la clé dans votre fichier `.env`
 
-## 📐 Modèle SBERT utilisé
+## Modèle SBERT utilisé
 
 **`paraphrase-multilingual-MiniLM-L12-v2`**
 - Multilingue (français + anglais natif)
@@ -91,7 +91,7 @@ streamlit run app.py
 - Optimal pour la similarité de phrases courtes
 - Open-source, zéro coût, local
 
-## 🧮 Formule de scoring
+## Formule de scoring
 
 **Score par bloc :**
 ```
@@ -113,7 +113,7 @@ Score_global = Σ(Wi × Si) / Σ(Wi)
 Score_métier = Σ(req² × min(1, user/req)) / Σ(req²)
 ```
 
-## 🛡️ Gouvernance & Éthique
+## Gouvernance & Éthique
 
 - **Appels API limités** : 2 appels maximum par session (plan + bio)
 - **Cache JSON automatique** : réutilisation des réponses identiques
@@ -122,7 +122,7 @@ Score_métier = Σ(req² × min(1, user/req)) / Σ(req²)
 - **Hallucinations contrôlées** : contexte RAG structuré injecté dans les prompts
 - **Modèle local** (SBERT) : zéro appel externe pour la partie NLP cœur
 
-## 📚 Technologies
+## Technologies
 
 | Composant | Technologie | Justification |
 |-----------|-------------|---------------|
