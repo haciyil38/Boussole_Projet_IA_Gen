@@ -68,9 +68,8 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 # 3. Installer les dépendances
 pip install -r requirements.txt
 
-# 4. Configurer la clé API
-cp .env.example .env
-# Éditez .env et ajoutez votre clé Gemini
+# 4. Configurer la clé API depuis Google AI studio
+# Éditez .env et ajoutez votre clé Gemini dans l'application streamlit directement
 
 # 5. Lancer l'application
 streamlit run app.py
